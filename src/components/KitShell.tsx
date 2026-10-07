@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
+import Collapse from "@mui/material/Collapse";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import Snackbar from "@mui/material/Snackbar";
@@ -10,18 +11,11 @@ import Typography from "@mui/material/Typography";
 import { useColorScheme } from "@mui/material/styles";
 import { Link, useRouterState } from "@tanstack/react-router";
 import themeSource from "@/theme/theme.ts?raw";
+import { themeTokens } from "@/theme/tokens";
+import { kitNav } from "@/catalog/nav";
 import { searchCatalog } from "@/catalog/search";
 import { IconMenu, IconMoon, IconSearch, IconSun, PulseMark } from "@/icons/icons";
 import { CopyContext } from "@/components/copy-context";
-
-const nav = [
-  { href: "/tokens", label: "Tokens" },
-  { href: "/primitives", label: "Primitives" },
-  { href: "/components", label: "Components" },
-  { href: "/features", label: "Features" },
-  { href: "/patterns", label: "Patterns" },
-  { href: "/pages", label: "Pages" },
-] as const;
 
 export function KitShell({ children }: { children: React.ReactNode }) {
   const path = useRouterState({ select: (state) => state.location.pathname });
@@ -30,10 +24,15 @@ export function KitShell({ children }: { children: React.ReactNode }) {
   const [query, setQuery] = useState("");
   const [notice, setNotice] = useState<string | null>(null);
   const [menu, setMenu] = useState(false);
+  const [open, setOpen] = useState<Record<string, boolean>>({});
   const hits = searchCatalog(query);
 
   function copy(text: string, label: string) {
     void navigator.clipboard.writeText(text).then(() => setNotice(label));
+  }
+
+  function copyThemeJson() {
+    copy(JSON.stringify(themeTokens, null, 2), "theme.json copied");
   }
 
   function downloadTheme() {
@@ -140,29 +139,78 @@ export function KitShell({ children }: { children: React.ReactNode }) {
             )}
           </Box>
         ) : (
-          <Box component="nav" aria-label="Kit" sx={{ display: "flex", flexDirection: "column", gap: 0.5 }}>
-            {nav.map((item) => {
+          <Box component="nav" aria-label="Kit" sx={{ display: "flex", flexDirection: "column", gap: 0.25 }}>
+            {kitNav.map((item) => {
               const on = path === item.href || path.startsWith(`${item.href}/`);
+              const expanded = open[item.href] ?? on;
               return (
-                <Box
-                  key={item.href}
-                  component={Link}
-                  to={item.href}
-                  onClick={() => setMenu(false)}
-                  aria-current={on ? "page" : undefined}
-                  sx={{
-                    textDecoration: "none",
-                    color: on ? "primary.main" : "text.primary",
-                    bgcolor: on ? "action.selected" : "transparent",
-                    borderRadius: 1,
-                    px: 1.5,
-                    minHeight: 44,
-                    display: "flex",
-                    alignItems: "center",
-                    fontWeight: 500,
-                  }}
-                >
-                  {item.label}
+                <Box key={item.href}>
+                  <Box sx={{ display: "flex", alignItems: "center", borderRadius: 1, bgcolor: path === item.href ? "action.selected" : "transparent" }}>
+                    <Box
+                      component={Link}
+                      to={item.href}
+                      onClick={() => {
+                        setOpen((current) => ({ ...current, [item.href]: true }));
+                        setMenu(false);
+                      }}
+                      aria-current={path === item.href ? "page" : undefined}
+                      sx={{
+                        textDecoration: "none",
+                        color: on ? "primary.main" : "text.primary",
+                        borderRadius: 1,
+                        px: 1.5,
+                        minHeight: 44,
+                        display: "flex",
+                        alignItems: "center",
+                        fontWeight: 500,
+                        flex: 1,
+                      }}
+                    >
+                      {item.label}
+                    </Box>
+                    <IconButton
+                      size="small"
+                      aria-label={`${expanded ? "Collapse" : "Expand"} ${item.label}`}
+                      aria-expanded={expanded}
+                      onClick={() => setOpen((current) => ({ ...current, [item.href]: !expanded }))}
+                      sx={{ mr: 0.5, color: "text.secondary" }}
+                    >
+                      <Box component="span" sx={{ fontSize: 12, transform: expanded ? "rotate(90deg)" : "none", display: "block" }}>
+                        ▸
+                      </Box>
+                    </IconButton>
+                  </Box>
+                  <Collapse in={expanded}>
+                    <Box sx={{ display: "flex", flexDirection: "column", gap: 0.25, pb: 0.5 }}>
+                      {item.children.map((child) => {
+                        const childOn = path === child.href;
+                        return (
+                          <Box
+                            key={child.href}
+                            component={Link}
+                            to={child.href}
+                            onClick={() => setMenu(false)}
+                            aria-current={childOn ? "page" : undefined}
+                            sx={{
+                              textDecoration: "none",
+                              color: childOn ? "primary.main" : "text.secondary",
+                              bgcolor: childOn ? "action.selected" : "transparent",
+                              borderRadius: 1,
+                              pl: 3,
+                              pr: 1.5,
+                              minHeight: 36,
+                              display: "flex",
+                              alignItems: "center",
+                              fontSize: 14,
+                              "&:hover": { bgcolor: "action.hover", color: "text.primary" },
+                            }}
+                          >
+                            {child.label}
+                          </Box>
+                        );
+                      })}
+                    </Box>
+                  </Collapse>
                 </Box>
               );
             })}
@@ -170,14 +218,14 @@ export function KitShell({ children }: { children: React.ReactNode }) {
         )}
       </Box>
       <Typography variant="caption" color="text.secondary" sx={{ flexShrink: 0 }}>
-        Rebrand by editing theme.ts. Specimens read the same CSS variables.
+        theme.ts is the MUI import. Copy theme writes the JSON token file.
       </Typography>
     </Box>
   );
 
   return (
     <CopyContext.Provider value={copy}>
-      <Box sx={{ display: "flex", minHeight: "100vh", width: "100%", maxWidth: "100%", overflowX: "hidden", bgcolor: "background.default", color: "text.primary" }}>
+      <Box sx={{ display: "flex", minHeight: "100vh", width: "100%", maxWidth: "100%", bgcolor: "background.default", color: "text.primary" }}>
         <Box
           sx={{
             width: 248,
@@ -189,7 +237,9 @@ export function KitShell({ children }: { children: React.ReactNode }) {
             bgcolor: "background.paper",
             position: "sticky",
             top: 0,
+            alignSelf: "flex-start",
             height: "100vh",
+            zIndex: 20,
             overflow: "hidden",
           }}
         >
@@ -201,7 +251,7 @@ export function KitShell({ children }: { children: React.ReactNode }) {
             sx={{
               position: "sticky",
               top: 0,
-              zIndex: 10,
+              zIndex: 15,
               display: "flex",
               alignItems: "center",
               gap: 1,
@@ -234,7 +284,10 @@ export function KitShell({ children }: { children: React.ReactNode }) {
                 <IconMoon size={16} />
               </ToggleButton>
             </ToggleButtonGroup>
-            <Button size="small" variant="contained" onClick={downloadTheme}>
+            <Button size="small" variant="outlined" onClick={downloadTheme}>
+              theme.ts
+            </Button>
+            <Button size="small" variant="contained" onClick={copyThemeJson}>
               Copy theme
             </Button>
           </Box>
@@ -253,16 +306,10 @@ export function KitShell({ children }: { children: React.ReactNode }) {
 
 function titleFor(path: string) {
   if (path === "/") return "Overview";
-  if (path.startsWith("/tokens")) return "Tokens";
-  if (path.startsWith("/primitives/")) return "Primitive";
-  if (path.startsWith("/primitives")) return "Primitives";
-  if (path.startsWith("/components/")) return "Component";
-  if (path.startsWith("/components")) return "Components";
-  if (path.startsWith("/features/")) return "Feature";
-  if (path.startsWith("/features")) return "Features";
-  if (path.startsWith("/patterns/")) return "Pattern";
-  if (path.startsWith("/patterns")) return "Patterns";
-  if (path.startsWith("/pages/")) return "Capture";
-  if (path.startsWith("/pages")) return "Pages";
-  return "Pulse Kit";
+  const item = kitNav.find((entry) => path === entry.href || path.startsWith(`${entry.href}/`));
+  if (!item) return "Pulse Kit";
+  const child = item.children.find((entry) => path === entry.href);
+  if (child) return `${item.label} · ${child.label}`;
+  if (path !== item.href) return item.label.slice(0, -1);
+  return item.label;
 }

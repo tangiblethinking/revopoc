@@ -12,9 +12,10 @@ export type Hit = {
 };
 
 const index: Hit[] = [
-  { kind: "Token", title: "Color", hint: "Primary, neutral, status", href: "/tokens" },
-  { kind: "Token", title: "Type", hint: "Inter scale", href: "/tokens" },
-  { kind: "Token", title: "Radius, spacing, shadow", hint: "8px radius, elevation 1", href: "/tokens" },
+  { kind: "Token", title: "Color", hint: "Primary, neutral, status", href: "/tokens/colors" },
+  { kind: "Token", title: "Type", hint: "Inter scale, largest to smallest", href: "/tokens/type" },
+  { kind: "Token", title: "Layout", hint: "Radius, spacing, shadow", href: "/tokens/layout" },
+  { kind: "Token", title: "States", hint: "Hover, pressed, focus, disabled", href: "/tokens/states" },
   ...primitives.map((item) => ({
     kind: "Primitive" as const,
     title: item.name,

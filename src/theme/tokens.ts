@@ -1,0 +1,105 @@
+export const fontFamily = '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif';
+
+export const lightNeutral = {
+  50: "#f5f6f8",
+  100: "#eef1f5",
+  200: "#e6e9ee",
+  300: "#d2d7de",
+  400: "#aab2bd",
+  500: "#8a93a2",
+  600: "#5a6473",
+  700: "#424b59",
+  800: "#2a323e",
+  900: "#1a2230",
+  950: "#0f1520",
+  main: "#8a93a2",
+  light: "#aab2bd",
+  dark: "#5a6473",
+  contrastText: "#fff",
+};
+
+export const darkNeutral = {
+  50: "#fbfcfe",
+  100: "#f0f4f8",
+  200: "#dde7ee",
+  300: "#cdd7e1",
+  400: "#9fa6ad",
+  500: "#636b74",
+  600: "#555e68",
+  700: "#32383e",
+  800: "#202427",
+  900: "#121517",
+  950: "#090a0b",
+  main: "#636b74",
+  light: "#9fa6ad",
+  dark: "#32383e",
+  contrastText: "#fff",
+};
+
+export const typeScale = [
+  { name: "h1", weight: 500, size: "3.5rem", lineHeight: 1.2, note: "56px" },
+  { name: "h2", weight: 500, size: "3rem", lineHeight: 1.2, note: "48px" },
+  { name: "h3", weight: 500, size: "2.25rem", lineHeight: 1.2, note: "36px" },
+  { name: "h4", weight: 500, size: "2rem", lineHeight: 1.2, note: "32px" },
+  { name: "h5", weight: 500, size: "1.5rem", lineHeight: 1.2, note: "24px" },
+  { name: "h6", weight: 500, size: "1.125rem", lineHeight: 1.2, note: "18px" },
+  { name: "subtitle1", weight: 500, size: "1rem", lineHeight: 1.57, note: "16px" },
+  { name: "body1", weight: 400, size: "1rem", lineHeight: 1.5, note: "16px" },
+  { name: "subtitle2", weight: 500, size: "0.875rem", lineHeight: 1.57, note: "14px" },
+  { name: "body2", weight: 400, size: "0.875rem", lineHeight: 1.57, note: "14px" },
+  { name: "button", weight: 500, size: "0.875rem", lineHeight: 1.75, note: "14px, no uppercase" },
+  { name: "overline", weight: 500, size: "0.75rem", lineHeight: 2.66, note: "12px, tracked" },
+  { name: "caption", weight: 400, size: "0.75rem", lineHeight: 1.66, note: "12px" },
+] as const;
+
+export const interactionStates = [
+  { id: "hover", label: "Hover", token: "action.hover", cssVar: "--mui-palette-action-hover", opacity: "0.04", use: "Pointer over a button, row, chip, or nav item." },
+  { id: "pressed", label: "Pressed", token: "action.active", cssVar: "--mui-palette-action-active", opacity: "0.12", use: "Pointer down, or a toggle that is activated." },
+  { id: "focus", label: "Focus", token: "action.focus", cssVar: "--mui-palette-action-focus", opacity: "0.12", use: "Keyboard focus. Also a 2px primary outline." },
+  { id: "selected", label: "Selected", token: "action.selected", cssVar: "--mui-palette-action-selected", opacity: "0.08", use: "Selected list row, nav item, or toggle." },
+  { id: "disabled", label: "Disabled", token: "action.disabled", cssVar: "--mui-palette-action-disabled", opacity: "0.38", use: "Label and icon of a control that cannot be used." },
+  { id: "disabledBackground", label: "Disabled background", token: "action.disabledBackground", cssVar: "--mui-palette-action-disabledBackground", opacity: "0.12", use: "Fill of a disabled contained button." },
+] as const;
+
+export const themeTokens = {
+  fontFamily,
+  shape: { borderRadius: 8 },
+  spacing: 8,
+  colorSchemes: {
+    light: {
+      primary: { main: "#3a6ea5", light: "#6492bd", dark: "#305d8c", contrastText: "#fff" },
+      secondary: { main: "#32383e", light: "#555e68", dark: "#202427", contrastText: "#fff" },
+      error: { main: "#a8473f", contrastText: "#fff" },
+      warning: { main: "#9a6b1f", contrastText: "#fff" },
+      success: { main: "#2f7d5b", contrastText: "#fff" },
+      info: { main: "#4a7aa9", contrastText: "#fff" },
+      neutral: lightNeutral,
+      shadow: "rgba(0, 0, 0, 0.08)",
+      background: { default: "#f5f6f8", paper: "#ffffff", level1: "#f5f6f8", level2: "#eef1f5", level3: "#e6e9ee" },
+      text: { primary: "#1a2230", secondary: "#5a6473" },
+      divider: "#e6e9ee",
+    },
+    dark: {
+      primary: { main: "#6492bd", light: "#8fb0d0", dark: "#4a7cab", contrastText: "#fff" },
+      secondary: { main: "#dde7ee", light: "#f0f4f8", dark: "#cdd7e1", contrastText: "#000" },
+      error: { main: "#ba564b", contrastText: "#fff" },
+      warning: { main: "#b1842f", contrastText: "#fff" },
+      success: { main: "#4f9573", contrastText: "#fff" },
+      info: { main: "#6491bd", contrastText: "#fff" },
+      neutral: darkNeutral,
+      shadow: "rgba(0, 0, 0, 0.5)",
+      background: { default: "#090a0b", paper: "#121517", level1: "#202427", level2: "#32383e", level3: "#555e68" },
+      text: { primary: "#f0f4f8", secondary: "#9fa6ad" },
+      divider: "#32383e",
+    },
+  },
+  typography: Object.fromEntries(typeScale.map((item) => [item.name, { fontWeight: item.weight, fontSize: item.size, lineHeight: item.lineHeight }])),
+  states: interactionStates.map(({ id, label, token, cssVar, opacity, use }) => ({ id, label, token, cssVar, opacity, use })),
+  layout: {
+    sideNavWidth: "252px",
+    mainNavHeight: "62px",
+    radius: "8px",
+    spacing: "8px",
+    themeColor: "#090a0b",
+  },
+};

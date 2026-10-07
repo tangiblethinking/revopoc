@@ -1,12 +1,9 @@
-import { useMemo, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import Box from "@mui/material/Box";
-import Chip from "@mui/material/Chip";
 import Paper from "@mui/material/Paper";
-import ToggleButton from "@mui/material/ToggleButton";
-import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import Typography from "@mui/material/Typography";
 import pages from "@/catalog/pages.json";
+import { kitNav, pageGroupId } from "@/catalog/nav";
 import { CaptureNote } from "@/components/CaptureNote";
 
 export const Route = createFileRoute("/_kit/pages/")({
@@ -14,44 +11,29 @@ export const Route = createFileRoute("/_kit/pages/")({
 });
 
 function PagesIndex() {
-  const [filter, setFilter] = useState("all");
-  const visible = useMemo(() => {
-    return pages.filter((page) => {
-      if (filter === "dark") return page.colorScheme === "dark";
-      if (filter === "overlay") return page.opened !== "shell";
-      if (filter === "shell") return page.opened === "shell";
-      return true;
-    });
-  }, [filter]);
+  const groups = kitNav.find((item) => item.href === "/pages")?.children ?? [];
   return (
     <Box>
+      <Typography variant="body2" color="text.secondary" sx={{ mb: 2, maxWidth: 720 }}>
+        The capture library. Each card is a real Plexus Pulse screen, including overlays that were open. Open a surface, then a capture, to follow the chips into the tokens, primitives, components, and pattern that construct it.
+      </Typography>
       <Box sx={{ mb: 2 }}>
         <CaptureNote />
       </Box>
-      <ToggleButtonGroup exclusive size="small" value={filter} onChange={(_, next) => next && setFilter(next)} sx={{ mb: 2 }}>
-        <ToggleButton value="all">All</ToggleButton>
-        <ToggleButton value="shell">Shell</ToggleButton>
-        <ToggleButton value="overlay">Overlays</ToggleButton>
-        <ToggleButton value="dark">Dark</ToggleButton>
-      </ToggleButtonGroup>
       <Box sx={{ display: "grid", gap: 1.5, gridTemplateColumns: { xs: "1fr", sm: "1fr 1fr", lg: "1fr 1fr 1fr" } }}>
-        {visible.map((page) => (
-          <Link key={page.slug} to="/pages/$slug" params={{ slug: page.slug }} style={{ textDecoration: "none" }}>
-            <Paper variant="outlined" sx={{ overflow: "hidden", color: "inherit", height: "100%", "&:hover": { borderColor: "primary.main" } }}>
-            <Box component="img" src={page.shot} alt="" sx={{ width: "100%", height: 150, objectFit: "cover", objectPosition: "top", bgcolor: "background.level2", display: "block" }} />
-            <Box sx={{ p: 1.5 }}>
-              <Typography variant="subtitle2">{page.title.replace(" | Plexus Pulse", "")}</Typography>
-              <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 0.5 }}>
-                {page.path}
-              </Typography>
-              <Box sx={{ display: "flex", gap: 0.75, mt: 1, flexWrap: "wrap" }}>
-                <Chip size="small" variant="outlined" label={page.opened === "shell" ? "Shell" : "Overlay"} />
-                {page.colorScheme === "dark" ? <Chip size="small" label="Dark" /> : null}
-              </Box>
-            </Box>
-            </Paper>
-          </Link>
-        ))}
+        {groups.map((group) => {
+          const count = pages.filter((page) => pageGroupId(page.folder) === group.id).length;
+          return (
+            <Link key={group.href} to={group.href} style={{ textDecoration: "none" }}>
+              <Paper variant="outlined" sx={{ p: 2, color: "inherit", minHeight: 96, "&:hover": { borderColor: "primary.main" } }}>
+                <Typography variant="h6">{group.label}</Typography>
+                <Typography variant="caption" color="text.secondary" sx={{ display: "block", mt: 0.75 }}>
+                  {count} captures
+                </Typography>
+              </Paper>
+            </Link>
+          );
+        })}
       </Box>
     </Box>
   );

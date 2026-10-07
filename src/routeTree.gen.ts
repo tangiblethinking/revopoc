@@ -14,14 +14,62 @@ import { Route as KitIndexRouteImport } from './routes/_kit/index'
 import { Route as KitTokensRouteImport } from './routes/_kit/tokens'
 import { Route as KitComponentsIndexRouteImport } from './routes/_kit/components/index'
 import { Route as KitComponentsIdRouteImport } from './routes/_kit/components/$id'
+import { Route as KitComponentsChartsRouteImport } from './routes/_kit/components/charts'
+import { Route as KitComponentsChromeRouteImport } from './routes/_kit/components/chrome'
+import { Route as KitComponentsDashboardRouteImport } from './routes/_kit/components/dashboard'
+import { Route as KitComponentsFieldRouteImport } from './routes/_kit/components/field'
+import { Route as KitComponentsMetricsRouteImport } from './routes/_kit/components/metrics'
+import { Route as KitComponentsPeopleRouteImport } from './routes/_kit/components/people'
+import { Route as KitComponentsTablesRouteImport } from './routes/_kit/components/tables'
+import { Route as KitComponentsWorkRouteImport } from './routes/_kit/components/work'
 import { Route as KitFeaturesIndexRouteImport } from './routes/_kit/features/index'
 import { Route as KitFeaturesIdRouteImport } from './routes/_kit/features/$id'
+import { Route as KitFeaturesFindRouteImport } from './routes/_kit/features/find'
+import { Route as KitFeaturesInspectRouteImport } from './routes/_kit/features/inspect'
+import { Route as KitFeaturesRunThePeriodRouteImport } from './routes/_kit/features/run-the-period'
+import { Route as KitFeaturesShareRouteImport } from './routes/_kit/features/share'
+import { Route as KitFeaturesWorkAListRouteImport } from './routes/_kit/features/work-a-list'
 import { Route as KitPagesIndexRouteImport } from './routes/_kit/pages/index'
 import { Route as KitPagesSlugRouteImport } from './routes/_kit/pages/$slug'
+import { Route as KitPagesAccountRouteImport } from './routes/_kit/pages/account'
+import { Route as KitPagesBusinessRouteImport } from './routes/_kit/pages/business'
+import { Route as KitPagesContestRouteImport } from './routes/_kit/pages/contest'
+import { Route as KitPagesCrmRouteImport } from './routes/_kit/pages/crm'
+import { Route as KitPagesGenealogyRouteImport } from './routes/_kit/pages/genealogy'
+import { Route as KitPagesGeographyRouteImport } from './routes/_kit/pages/geography'
+import { Route as KitPagesHomeRouteImport } from './routes/_kit/pages/home'
+import { Route as KitPagesHubRouteImport } from './routes/_kit/pages/hub'
+import { Route as KitPagesInboxRouteImport } from './routes/_kit/pages/inbox'
+import { Route as KitPagesJourneyRouteImport } from './routes/_kit/pages/journey'
+import { Route as KitPagesKickoffRouteImport } from './routes/_kit/pages/kickoff'
+import { Route as KitPagesLiveRouteImport } from './routes/_kit/pages/live'
+import { Route as KitPagesPlaybookRouteImport } from './routes/_kit/pages/playbook'
+import { Route as KitPagesPlexusURouteImport } from './routes/_kit/pages/plexus-u'
+import { Route as KitPagesPointsRankRouteImport } from './routes/_kit/pages/points-rank'
+import { Route as KitPagesPulseCheckRouteImport } from './routes/_kit/pages/pulse-check'
+import { Route as KitPagesRecognitionRouteImport } from './routes/_kit/pages/recognition'
+import { Route as KitPagesSharingRouteImport } from './routes/_kit/pages/sharing'
 import { Route as KitPatternsIndexRouteImport } from './routes/_kit/patterns/index'
 import { Route as KitPatternsIdRouteImport } from './routes/_kit/patterns/$id'
+import { Route as KitPatternsAccountRouteImport } from './routes/_kit/patterns/account'
+import { Route as KitPatternsAssistRouteImport } from './routes/_kit/patterns/assist'
+import { Route as KitPatternsRankRouteImport } from './routes/_kit/patterns/rank'
+import { Route as KitPatternsShellRouteImport } from './routes/_kit/patterns/shell'
+import { Route as KitPatternsWorkRouteImport } from './routes/_kit/patterns/work'
 import { Route as KitPrimitivesIndexRouteImport } from './routes/_kit/primitives/index'
 import { Route as KitPrimitivesIdRouteImport } from './routes/_kit/primitives/$id'
+import { Route as KitPrimitivesActionsRouteImport } from './routes/_kit/primitives/actions'
+import { Route as KitPrimitivesDataRouteImport } from './routes/_kit/primitives/data'
+import { Route as KitPrimitivesFeedbackRouteImport } from './routes/_kit/primitives/feedback'
+import { Route as KitPrimitivesInputsRouteImport } from './routes/_kit/primitives/inputs'
+import { Route as KitPrimitivesNavigationRouteImport } from './routes/_kit/primitives/navigation'
+import { Route as KitPrimitivesSurfacesRouteImport } from './routes/_kit/primitives/surfaces'
+import { Route as KitPrimitivesTypeRouteImport } from './routes/_kit/primitives/type'
+import { Route as KitTokensIndexRouteImport } from './routes/_kit/tokens/index'
+import { Route as KitTokensColorsRouteImport } from './routes/_kit/tokens/colors'
+import { Route as KitTokensLayoutRouteImport } from './routes/_kit/tokens/layout'
+import { Route as KitTokensStatesRouteImport } from './routes/_kit/tokens/states'
+import { Route as KitTokensTypeRouteImport } from './routes/_kit/tokens/type'
 
 const KitRoute = KitRouteImport.update({
   id: '/_kit',
@@ -47,6 +95,46 @@ const KitComponentsIdRoute = KitComponentsIdRouteImport.update({
   path: '/components/$id',
   getParentRoute: () => KitRoute,
 } as any)
+const KitComponentsChartsRoute = KitComponentsChartsRouteImport.update({
+  id: '/components/charts',
+  path: '/components/charts',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitComponentsChromeRoute = KitComponentsChromeRouteImport.update({
+  id: '/components/chrome',
+  path: '/components/chrome',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitComponentsDashboardRoute = KitComponentsDashboardRouteImport.update({
+  id: '/components/dashboard',
+  path: '/components/dashboard',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitComponentsFieldRoute = KitComponentsFieldRouteImport.update({
+  id: '/components/field',
+  path: '/components/field',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitComponentsMetricsRoute = KitComponentsMetricsRouteImport.update({
+  id: '/components/metrics',
+  path: '/components/metrics',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitComponentsPeopleRoute = KitComponentsPeopleRouteImport.update({
+  id: '/components/people',
+  path: '/components/people',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitComponentsTablesRoute = KitComponentsTablesRouteImport.update({
+  id: '/components/tables',
+  path: '/components/tables',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitComponentsWorkRoute = KitComponentsWorkRouteImport.update({
+  id: '/components/work',
+  path: '/components/work',
+  getParentRoute: () => KitRoute,
+} as any)
 const KitFeaturesIndexRoute = KitFeaturesIndexRouteImport.update({
   id: '/features/',
   path: '/features/',
@@ -55,6 +143,31 @@ const KitFeaturesIndexRoute = KitFeaturesIndexRouteImport.update({
 const KitFeaturesIdRoute = KitFeaturesIdRouteImport.update({
   id: '/features/$id',
   path: '/features/$id',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitFeaturesFindRoute = KitFeaturesFindRouteImport.update({
+  id: '/features/find',
+  path: '/features/find',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitFeaturesInspectRoute = KitFeaturesInspectRouteImport.update({
+  id: '/features/inspect',
+  path: '/features/inspect',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitFeaturesRunThePeriodRoute = KitFeaturesRunThePeriodRouteImport.update({
+  id: '/features/run-the-period',
+  path: '/features/run-the-period',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitFeaturesShareRoute = KitFeaturesShareRouteImport.update({
+  id: '/features/share',
+  path: '/features/share',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitFeaturesWorkAListRoute = KitFeaturesWorkAListRouteImport.update({
+  id: '/features/work-a-list',
+  path: '/features/work-a-list',
   getParentRoute: () => KitRoute,
 } as any)
 const KitPagesIndexRoute = KitPagesIndexRouteImport.update({
@@ -67,6 +180,96 @@ const KitPagesSlugRoute = KitPagesSlugRouteImport.update({
   path: '/pages/$slug',
   getParentRoute: () => KitRoute,
 } as any)
+const KitPagesAccountRoute = KitPagesAccountRouteImport.update({
+  id: '/pages/account',
+  path: '/pages/account',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesBusinessRoute = KitPagesBusinessRouteImport.update({
+  id: '/pages/business',
+  path: '/pages/business',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesContestRoute = KitPagesContestRouteImport.update({
+  id: '/pages/contest',
+  path: '/pages/contest',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesCrmRoute = KitPagesCrmRouteImport.update({
+  id: '/pages/crm',
+  path: '/pages/crm',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesGenealogyRoute = KitPagesGenealogyRouteImport.update({
+  id: '/pages/genealogy',
+  path: '/pages/genealogy',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesGeographyRoute = KitPagesGeographyRouteImport.update({
+  id: '/pages/geography',
+  path: '/pages/geography',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesHomeRoute = KitPagesHomeRouteImport.update({
+  id: '/pages/home',
+  path: '/pages/home',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesHubRoute = KitPagesHubRouteImport.update({
+  id: '/pages/hub',
+  path: '/pages/hub',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesInboxRoute = KitPagesInboxRouteImport.update({
+  id: '/pages/inbox',
+  path: '/pages/inbox',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesJourneyRoute = KitPagesJourneyRouteImport.update({
+  id: '/pages/journey',
+  path: '/pages/journey',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesKickoffRoute = KitPagesKickoffRouteImport.update({
+  id: '/pages/kickoff',
+  path: '/pages/kickoff',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesLiveRoute = KitPagesLiveRouteImport.update({
+  id: '/pages/live',
+  path: '/pages/live',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesPlaybookRoute = KitPagesPlaybookRouteImport.update({
+  id: '/pages/playbook',
+  path: '/pages/playbook',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesPlexusURoute = KitPagesPlexusURouteImport.update({
+  id: '/pages/plexus-u',
+  path: '/pages/plexus-u',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesPointsRankRoute = KitPagesPointsRankRouteImport.update({
+  id: '/pages/points-rank',
+  path: '/pages/points-rank',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesPulseCheckRoute = KitPagesPulseCheckRouteImport.update({
+  id: '/pages/pulse-check',
+  path: '/pages/pulse-check',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesRecognitionRoute = KitPagesRecognitionRouteImport.update({
+  id: '/pages/recognition',
+  path: '/pages/recognition',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPagesSharingRoute = KitPagesSharingRouteImport.update({
+  id: '/pages/sharing',
+  path: '/pages/sharing',
+  getParentRoute: () => KitRoute,
+} as any)
 const KitPatternsIndexRoute = KitPatternsIndexRouteImport.update({
   id: '/patterns/',
   path: '/patterns/',
@@ -75,6 +278,31 @@ const KitPatternsIndexRoute = KitPatternsIndexRouteImport.update({
 const KitPatternsIdRoute = KitPatternsIdRouteImport.update({
   id: '/patterns/$id',
   path: '/patterns/$id',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPatternsAccountRoute = KitPatternsAccountRouteImport.update({
+  id: '/patterns/account',
+  path: '/patterns/account',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPatternsAssistRoute = KitPatternsAssistRouteImport.update({
+  id: '/patterns/assist',
+  path: '/patterns/assist',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPatternsRankRoute = KitPatternsRankRouteImport.update({
+  id: '/patterns/rank',
+  path: '/patterns/rank',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPatternsShellRoute = KitPatternsShellRouteImport.update({
+  id: '/patterns/shell',
+  path: '/patterns/shell',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPatternsWorkRoute = KitPatternsWorkRouteImport.update({
+  id: '/patterns/work',
+  path: '/patterns/work',
   getParentRoute: () => KitRoute,
 } as any)
 const KitPrimitivesIndexRoute = KitPrimitivesIndexRouteImport.update({
@@ -87,50 +315,253 @@ const KitPrimitivesIdRoute = KitPrimitivesIdRouteImport.update({
   path: '/primitives/$id',
   getParentRoute: () => KitRoute,
 } as any)
+const KitPrimitivesActionsRoute = KitPrimitivesActionsRouteImport.update({
+  id: '/primitives/actions',
+  path: '/primitives/actions',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPrimitivesDataRoute = KitPrimitivesDataRouteImport.update({
+  id: '/primitives/data',
+  path: '/primitives/data',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPrimitivesFeedbackRoute = KitPrimitivesFeedbackRouteImport.update({
+  id: '/primitives/feedback',
+  path: '/primitives/feedback',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPrimitivesInputsRoute = KitPrimitivesInputsRouteImport.update({
+  id: '/primitives/inputs',
+  path: '/primitives/inputs',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPrimitivesNavigationRoute = KitPrimitivesNavigationRouteImport.update({
+  id: '/primitives/navigation',
+  path: '/primitives/navigation',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPrimitivesSurfacesRoute = KitPrimitivesSurfacesRouteImport.update({
+  id: '/primitives/surfaces',
+  path: '/primitives/surfaces',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitPrimitivesTypeRoute = KitPrimitivesTypeRouteImport.update({
+  id: '/primitives/type',
+  path: '/primitives/type',
+  getParentRoute: () => KitRoute,
+} as any)
+const KitTokensIndexRoute = KitTokensIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => KitTokensRoute,
+} as any)
+const KitTokensColorsRoute = KitTokensColorsRouteImport.update({
+  id: '/colors',
+  path: '/colors',
+  getParentRoute: () => KitTokensRoute,
+} as any)
+const KitTokensLayoutRoute = KitTokensLayoutRouteImport.update({
+  id: '/layout',
+  path: '/layout',
+  getParentRoute: () => KitTokensRoute,
+} as any)
+const KitTokensStatesRoute = KitTokensStatesRouteImport.update({
+  id: '/states',
+  path: '/states',
+  getParentRoute: () => KitTokensRoute,
+} as any)
+const KitTokensTypeRoute = KitTokensTypeRouteImport.update({
+  id: '/type',
+  path: '/type',
+  getParentRoute: () => KitTokensRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof KitIndexRoute
-  '/tokens': typeof KitTokensRoute
+  '/tokens': typeof KitTokensRouteWithChildren
   '/components/$id': typeof KitComponentsIdRoute
+  '/components/charts': typeof KitComponentsChartsRoute
+  '/components/chrome': typeof KitComponentsChromeRoute
+  '/components/dashboard': typeof KitComponentsDashboardRoute
+  '/components/field': typeof KitComponentsFieldRoute
+  '/components/metrics': typeof KitComponentsMetricsRoute
+  '/components/people': typeof KitComponentsPeopleRoute
+  '/components/tables': typeof KitComponentsTablesRoute
+  '/components/work': typeof KitComponentsWorkRoute
   '/features/$id': typeof KitFeaturesIdRoute
+  '/features/find': typeof KitFeaturesFindRoute
+  '/features/inspect': typeof KitFeaturesInspectRoute
+  '/features/run-the-period': typeof KitFeaturesRunThePeriodRoute
+  '/features/share': typeof KitFeaturesShareRoute
+  '/features/work-a-list': typeof KitFeaturesWorkAListRoute
   '/pages/$slug': typeof KitPagesSlugRoute
+  '/pages/account': typeof KitPagesAccountRoute
+  '/pages/business': typeof KitPagesBusinessRoute
+  '/pages/contest': typeof KitPagesContestRoute
+  '/pages/crm': typeof KitPagesCrmRoute
+  '/pages/genealogy': typeof KitPagesGenealogyRoute
+  '/pages/geography': typeof KitPagesGeographyRoute
+  '/pages/home': typeof KitPagesHomeRoute
+  '/pages/hub': typeof KitPagesHubRoute
+  '/pages/inbox': typeof KitPagesInboxRoute
+  '/pages/journey': typeof KitPagesJourneyRoute
+  '/pages/kickoff': typeof KitPagesKickoffRoute
+  '/pages/live': typeof KitPagesLiveRoute
+  '/pages/playbook': typeof KitPagesPlaybookRoute
+  '/pages/plexus-u': typeof KitPagesPlexusURoute
+  '/pages/points-rank': typeof KitPagesPointsRankRoute
+  '/pages/pulse-check': typeof KitPagesPulseCheckRoute
+  '/pages/recognition': typeof KitPagesRecognitionRoute
+  '/pages/sharing': typeof KitPagesSharingRoute
   '/patterns/$id': typeof KitPatternsIdRoute
+  '/patterns/account': typeof KitPatternsAccountRoute
+  '/patterns/assist': typeof KitPatternsAssistRoute
+  '/patterns/rank': typeof KitPatternsRankRoute
+  '/patterns/shell': typeof KitPatternsShellRoute
+  '/patterns/work': typeof KitPatternsWorkRoute
   '/primitives/$id': typeof KitPrimitivesIdRoute
+  '/primitives/actions': typeof KitPrimitivesActionsRoute
+  '/primitives/data': typeof KitPrimitivesDataRoute
+  '/primitives/feedback': typeof KitPrimitivesFeedbackRoute
+  '/primitives/inputs': typeof KitPrimitivesInputsRoute
+  '/primitives/navigation': typeof KitPrimitivesNavigationRoute
+  '/primitives/surfaces': typeof KitPrimitivesSurfacesRoute
+  '/primitives/type': typeof KitPrimitivesTypeRoute
+  '/tokens/colors': typeof KitTokensColorsRoute
+  '/tokens/layout': typeof KitTokensLayoutRoute
+  '/tokens/states': typeof KitTokensStatesRoute
+  '/tokens/type': typeof KitTokensTypeRoute
   '/components/': typeof KitComponentsIndexRoute
   '/features/': typeof KitFeaturesIndexRoute
   '/pages/': typeof KitPagesIndexRoute
   '/patterns/': typeof KitPatternsIndexRoute
   '/primitives/': typeof KitPrimitivesIndexRoute
+  '/tokens/': typeof KitTokensIndexRoute
 }
 export interface FileRoutesByTo {
-  '/tokens': typeof KitTokensRoute
   '/': typeof KitIndexRoute
   '/components/$id': typeof KitComponentsIdRoute
+  '/components/charts': typeof KitComponentsChartsRoute
+  '/components/chrome': typeof KitComponentsChromeRoute
+  '/components/dashboard': typeof KitComponentsDashboardRoute
+  '/components/field': typeof KitComponentsFieldRoute
+  '/components/metrics': typeof KitComponentsMetricsRoute
+  '/components/people': typeof KitComponentsPeopleRoute
+  '/components/tables': typeof KitComponentsTablesRoute
+  '/components/work': typeof KitComponentsWorkRoute
   '/features/$id': typeof KitFeaturesIdRoute
+  '/features/find': typeof KitFeaturesFindRoute
+  '/features/inspect': typeof KitFeaturesInspectRoute
+  '/features/run-the-period': typeof KitFeaturesRunThePeriodRoute
+  '/features/share': typeof KitFeaturesShareRoute
+  '/features/work-a-list': typeof KitFeaturesWorkAListRoute
   '/pages/$slug': typeof KitPagesSlugRoute
+  '/pages/account': typeof KitPagesAccountRoute
+  '/pages/business': typeof KitPagesBusinessRoute
+  '/pages/contest': typeof KitPagesContestRoute
+  '/pages/crm': typeof KitPagesCrmRoute
+  '/pages/genealogy': typeof KitPagesGenealogyRoute
+  '/pages/geography': typeof KitPagesGeographyRoute
+  '/pages/home': typeof KitPagesHomeRoute
+  '/pages/hub': typeof KitPagesHubRoute
+  '/pages/inbox': typeof KitPagesInboxRoute
+  '/pages/journey': typeof KitPagesJourneyRoute
+  '/pages/kickoff': typeof KitPagesKickoffRoute
+  '/pages/live': typeof KitPagesLiveRoute
+  '/pages/playbook': typeof KitPagesPlaybookRoute
+  '/pages/plexus-u': typeof KitPagesPlexusURoute
+  '/pages/points-rank': typeof KitPagesPointsRankRoute
+  '/pages/pulse-check': typeof KitPagesPulseCheckRoute
+  '/pages/recognition': typeof KitPagesRecognitionRoute
+  '/pages/sharing': typeof KitPagesSharingRoute
   '/patterns/$id': typeof KitPatternsIdRoute
+  '/patterns/account': typeof KitPatternsAccountRoute
+  '/patterns/assist': typeof KitPatternsAssistRoute
+  '/patterns/rank': typeof KitPatternsRankRoute
+  '/patterns/shell': typeof KitPatternsShellRoute
+  '/patterns/work': typeof KitPatternsWorkRoute
   '/primitives/$id': typeof KitPrimitivesIdRoute
+  '/primitives/actions': typeof KitPrimitivesActionsRoute
+  '/primitives/data': typeof KitPrimitivesDataRoute
+  '/primitives/feedback': typeof KitPrimitivesFeedbackRoute
+  '/primitives/inputs': typeof KitPrimitivesInputsRoute
+  '/primitives/navigation': typeof KitPrimitivesNavigationRoute
+  '/primitives/surfaces': typeof KitPrimitivesSurfacesRoute
+  '/primitives/type': typeof KitPrimitivesTypeRoute
+  '/tokens/colors': typeof KitTokensColorsRoute
+  '/tokens/layout': typeof KitTokensLayoutRoute
+  '/tokens/states': typeof KitTokensStatesRoute
+  '/tokens/type': typeof KitTokensTypeRoute
   '/components': typeof KitComponentsIndexRoute
   '/features': typeof KitFeaturesIndexRoute
   '/pages': typeof KitPagesIndexRoute
   '/patterns': typeof KitPatternsIndexRoute
   '/primitives': typeof KitPrimitivesIndexRoute
+  '/tokens': typeof KitTokensIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/_kit': typeof KitRouteWithChildren
-  '/_kit/tokens': typeof KitTokensRoute
+  '/_kit/tokens': typeof KitTokensRouteWithChildren
   '/_kit/': typeof KitIndexRoute
   '/_kit/components/$id': typeof KitComponentsIdRoute
+  '/_kit/components/charts': typeof KitComponentsChartsRoute
+  '/_kit/components/chrome': typeof KitComponentsChromeRoute
+  '/_kit/components/dashboard': typeof KitComponentsDashboardRoute
+  '/_kit/components/field': typeof KitComponentsFieldRoute
+  '/_kit/components/metrics': typeof KitComponentsMetricsRoute
+  '/_kit/components/people': typeof KitComponentsPeopleRoute
+  '/_kit/components/tables': typeof KitComponentsTablesRoute
+  '/_kit/components/work': typeof KitComponentsWorkRoute
   '/_kit/features/$id': typeof KitFeaturesIdRoute
+  '/_kit/features/find': typeof KitFeaturesFindRoute
+  '/_kit/features/inspect': typeof KitFeaturesInspectRoute
+  '/_kit/features/run-the-period': typeof KitFeaturesRunThePeriodRoute
+  '/_kit/features/share': typeof KitFeaturesShareRoute
+  '/_kit/features/work-a-list': typeof KitFeaturesWorkAListRoute
   '/_kit/pages/$slug': typeof KitPagesSlugRoute
+  '/_kit/pages/account': typeof KitPagesAccountRoute
+  '/_kit/pages/business': typeof KitPagesBusinessRoute
+  '/_kit/pages/contest': typeof KitPagesContestRoute
+  '/_kit/pages/crm': typeof KitPagesCrmRoute
+  '/_kit/pages/genealogy': typeof KitPagesGenealogyRoute
+  '/_kit/pages/geography': typeof KitPagesGeographyRoute
+  '/_kit/pages/home': typeof KitPagesHomeRoute
+  '/_kit/pages/hub': typeof KitPagesHubRoute
+  '/_kit/pages/inbox': typeof KitPagesInboxRoute
+  '/_kit/pages/journey': typeof KitPagesJourneyRoute
+  '/_kit/pages/kickoff': typeof KitPagesKickoffRoute
+  '/_kit/pages/live': typeof KitPagesLiveRoute
+  '/_kit/pages/playbook': typeof KitPagesPlaybookRoute
+  '/_kit/pages/plexus-u': typeof KitPagesPlexusURoute
+  '/_kit/pages/points-rank': typeof KitPagesPointsRankRoute
+  '/_kit/pages/pulse-check': typeof KitPagesPulseCheckRoute
+  '/_kit/pages/recognition': typeof KitPagesRecognitionRoute
+  '/_kit/pages/sharing': typeof KitPagesSharingRoute
   '/_kit/patterns/$id': typeof KitPatternsIdRoute
+  '/_kit/patterns/account': typeof KitPatternsAccountRoute
+  '/_kit/patterns/assist': typeof KitPatternsAssistRoute
+  '/_kit/patterns/rank': typeof KitPatternsRankRoute
+  '/_kit/patterns/shell': typeof KitPatternsShellRoute
+  '/_kit/patterns/work': typeof KitPatternsWorkRoute
   '/_kit/primitives/$id': typeof KitPrimitivesIdRoute
+  '/_kit/primitives/actions': typeof KitPrimitivesActionsRoute
+  '/_kit/primitives/data': typeof KitPrimitivesDataRoute
+  '/_kit/primitives/feedback': typeof KitPrimitivesFeedbackRoute
+  '/_kit/primitives/inputs': typeof KitPrimitivesInputsRoute
+  '/_kit/primitives/navigation': typeof KitPrimitivesNavigationRoute
+  '/_kit/primitives/surfaces': typeof KitPrimitivesSurfacesRoute
+  '/_kit/primitives/type': typeof KitPrimitivesTypeRoute
+  '/_kit/tokens/colors': typeof KitTokensColorsRoute
+  '/_kit/tokens/layout': typeof KitTokensLayoutRoute
+  '/_kit/tokens/states': typeof KitTokensStatesRoute
+  '/_kit/tokens/type': typeof KitTokensTypeRoute
   '/_kit/components/': typeof KitComponentsIndexRoute
   '/_kit/features/': typeof KitFeaturesIndexRoute
   '/_kit/pages/': typeof KitPagesIndexRoute
   '/_kit/patterns/': typeof KitPatternsIndexRoute
   '/_kit/primitives/': typeof KitPrimitivesIndexRoute
+  '/_kit/tokens/': typeof KitTokensIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -138,44 +569,187 @@ export interface FileRouteTypes {
     | '/'
     | '/tokens'
     | '/components/$id'
+    | '/components/charts'
+    | '/components/chrome'
+    | '/components/dashboard'
+    | '/components/field'
+    | '/components/metrics'
+    | '/components/people'
+    | '/components/tables'
+    | '/components/work'
     | '/features/$id'
+    | '/features/find'
+    | '/features/inspect'
+    | '/features/run-the-period'
+    | '/features/share'
+    | '/features/work-a-list'
     | '/pages/$slug'
+    | '/pages/account'
+    | '/pages/business'
+    | '/pages/contest'
+    | '/pages/crm'
+    | '/pages/genealogy'
+    | '/pages/geography'
+    | '/pages/home'
+    | '/pages/hub'
+    | '/pages/inbox'
+    | '/pages/journey'
+    | '/pages/kickoff'
+    | '/pages/live'
+    | '/pages/playbook'
+    | '/pages/plexus-u'
+    | '/pages/points-rank'
+    | '/pages/pulse-check'
+    | '/pages/recognition'
+    | '/pages/sharing'
     | '/patterns/$id'
+    | '/patterns/account'
+    | '/patterns/assist'
+    | '/patterns/rank'
+    | '/patterns/shell'
+    | '/patterns/work'
     | '/primitives/$id'
+    | '/primitives/actions'
+    | '/primitives/data'
+    | '/primitives/feedback'
+    | '/primitives/inputs'
+    | '/primitives/navigation'
+    | '/primitives/surfaces'
+    | '/primitives/type'
+    | '/tokens/colors'
+    | '/tokens/layout'
+    | '/tokens/states'
+    | '/tokens/type'
     | '/components/'
     | '/features/'
     | '/pages/'
     | '/patterns/'
     | '/primitives/'
+    | '/tokens/'
   fileRoutesByTo: FileRoutesByTo
   to:
-    | '/tokens'
     | '/'
     | '/components/$id'
+    | '/components/charts'
+    | '/components/chrome'
+    | '/components/dashboard'
+    | '/components/field'
+    | '/components/metrics'
+    | '/components/people'
+    | '/components/tables'
+    | '/components/work'
     | '/features/$id'
+    | '/features/find'
+    | '/features/inspect'
+    | '/features/run-the-period'
+    | '/features/share'
+    | '/features/work-a-list'
     | '/pages/$slug'
+    | '/pages/account'
+    | '/pages/business'
+    | '/pages/contest'
+    | '/pages/crm'
+    | '/pages/genealogy'
+    | '/pages/geography'
+    | '/pages/home'
+    | '/pages/hub'
+    | '/pages/inbox'
+    | '/pages/journey'
+    | '/pages/kickoff'
+    | '/pages/live'
+    | '/pages/playbook'
+    | '/pages/plexus-u'
+    | '/pages/points-rank'
+    | '/pages/pulse-check'
+    | '/pages/recognition'
+    | '/pages/sharing'
     | '/patterns/$id'
+    | '/patterns/account'
+    | '/patterns/assist'
+    | '/patterns/rank'
+    | '/patterns/shell'
+    | '/patterns/work'
     | '/primitives/$id'
+    | '/primitives/actions'
+    | '/primitives/data'
+    | '/primitives/feedback'
+    | '/primitives/inputs'
+    | '/primitives/navigation'
+    | '/primitives/surfaces'
+    | '/primitives/type'
+    | '/tokens/colors'
+    | '/tokens/layout'
+    | '/tokens/states'
+    | '/tokens/type'
     | '/components'
     | '/features'
     | '/pages'
     | '/patterns'
     | '/primitives'
+    | '/tokens'
   id:
     | '__root__'
     | '/_kit'
     | '/_kit/tokens'
     | '/_kit/'
     | '/_kit/components/$id'
+    | '/_kit/components/charts'
+    | '/_kit/components/chrome'
+    | '/_kit/components/dashboard'
+    | '/_kit/components/field'
+    | '/_kit/components/metrics'
+    | '/_kit/components/people'
+    | '/_kit/components/tables'
+    | '/_kit/components/work'
     | '/_kit/features/$id'
+    | '/_kit/features/find'
+    | '/_kit/features/inspect'
+    | '/_kit/features/run-the-period'
+    | '/_kit/features/share'
+    | '/_kit/features/work-a-list'
     | '/_kit/pages/$slug'
+    | '/_kit/pages/account'
+    | '/_kit/pages/business'
+    | '/_kit/pages/contest'
+    | '/_kit/pages/crm'
+    | '/_kit/pages/genealogy'
+    | '/_kit/pages/geography'
+    | '/_kit/pages/home'
+    | '/_kit/pages/hub'
+    | '/_kit/pages/inbox'
+    | '/_kit/pages/journey'
+    | '/_kit/pages/kickoff'
+    | '/_kit/pages/live'
+    | '/_kit/pages/playbook'
+    | '/_kit/pages/plexus-u'
+    | '/_kit/pages/points-rank'
+    | '/_kit/pages/pulse-check'
+    | '/_kit/pages/recognition'
+    | '/_kit/pages/sharing'
     | '/_kit/patterns/$id'
+    | '/_kit/patterns/account'
+    | '/_kit/patterns/assist'
+    | '/_kit/patterns/rank'
+    | '/_kit/patterns/shell'
+    | '/_kit/patterns/work'
     | '/_kit/primitives/$id'
+    | '/_kit/primitives/actions'
+    | '/_kit/primitives/data'
+    | '/_kit/primitives/feedback'
+    | '/_kit/primitives/inputs'
+    | '/_kit/primitives/navigation'
+    | '/_kit/primitives/surfaces'
+    | '/_kit/primitives/type'
+    | '/_kit/tokens/colors'
+    | '/_kit/tokens/layout'
+    | '/_kit/tokens/states'
+    | '/_kit/tokens/type'
     | '/_kit/components/'
     | '/_kit/features/'
     | '/_kit/pages/'
     | '/_kit/patterns/'
     | '/_kit/primitives/'
+    | '/_kit/tokens/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -219,6 +793,62 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KitComponentsIdRouteImport
       parentRoute: typeof KitRoute
     }
+    '/_kit/components/charts': {
+      id: '/_kit/components/charts'
+      path: '/components/charts'
+      fullPath: '/components/charts'
+      preLoaderRoute: typeof KitComponentsChartsRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/components/chrome': {
+      id: '/_kit/components/chrome'
+      path: '/components/chrome'
+      fullPath: '/components/chrome'
+      preLoaderRoute: typeof KitComponentsChromeRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/components/dashboard': {
+      id: '/_kit/components/dashboard'
+      path: '/components/dashboard'
+      fullPath: '/components/dashboard'
+      preLoaderRoute: typeof KitComponentsDashboardRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/components/field': {
+      id: '/_kit/components/field'
+      path: '/components/field'
+      fullPath: '/components/field'
+      preLoaderRoute: typeof KitComponentsFieldRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/components/metrics': {
+      id: '/_kit/components/metrics'
+      path: '/components/metrics'
+      fullPath: '/components/metrics'
+      preLoaderRoute: typeof KitComponentsMetricsRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/components/people': {
+      id: '/_kit/components/people'
+      path: '/components/people'
+      fullPath: '/components/people'
+      preLoaderRoute: typeof KitComponentsPeopleRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/components/tables': {
+      id: '/_kit/components/tables'
+      path: '/components/tables'
+      fullPath: '/components/tables'
+      preLoaderRoute: typeof KitComponentsTablesRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/components/work': {
+      id: '/_kit/components/work'
+      path: '/components/work'
+      fullPath: '/components/work'
+      preLoaderRoute: typeof KitComponentsWorkRouteImport
+      parentRoute: typeof KitRoute
+    }
     '/_kit/features/': {
       id: '/_kit/features/'
       path: '/features'
@@ -231,6 +861,41 @@ declare module '@tanstack/react-router' {
       path: '/features/$id'
       fullPath: '/features/$id'
       preLoaderRoute: typeof KitFeaturesIdRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/features/find': {
+      id: '/_kit/features/find'
+      path: '/features/find'
+      fullPath: '/features/find'
+      preLoaderRoute: typeof KitFeaturesFindRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/features/inspect': {
+      id: '/_kit/features/inspect'
+      path: '/features/inspect'
+      fullPath: '/features/inspect'
+      preLoaderRoute: typeof KitFeaturesInspectRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/features/run-the-period': {
+      id: '/_kit/features/run-the-period'
+      path: '/features/run-the-period'
+      fullPath: '/features/run-the-period'
+      preLoaderRoute: typeof KitFeaturesRunThePeriodRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/features/share': {
+      id: '/_kit/features/share'
+      path: '/features/share'
+      fullPath: '/features/share'
+      preLoaderRoute: typeof KitFeaturesShareRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/features/work-a-list': {
+      id: '/_kit/features/work-a-list'
+      path: '/features/work-a-list'
+      fullPath: '/features/work-a-list'
+      preLoaderRoute: typeof KitFeaturesWorkAListRouteImport
       parentRoute: typeof KitRoute
     }
     '/_kit/pages/': {
@@ -247,6 +912,132 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KitPagesSlugRouteImport
       parentRoute: typeof KitRoute
     }
+    '/_kit/pages/account': {
+      id: '/_kit/pages/account'
+      path: '/pages/account'
+      fullPath: '/pages/account'
+      preLoaderRoute: typeof KitPagesAccountRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/business': {
+      id: '/_kit/pages/business'
+      path: '/pages/business'
+      fullPath: '/pages/business'
+      preLoaderRoute: typeof KitPagesBusinessRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/contest': {
+      id: '/_kit/pages/contest'
+      path: '/pages/contest'
+      fullPath: '/pages/contest'
+      preLoaderRoute: typeof KitPagesContestRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/crm': {
+      id: '/_kit/pages/crm'
+      path: '/pages/crm'
+      fullPath: '/pages/crm'
+      preLoaderRoute: typeof KitPagesCrmRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/genealogy': {
+      id: '/_kit/pages/genealogy'
+      path: '/pages/genealogy'
+      fullPath: '/pages/genealogy'
+      preLoaderRoute: typeof KitPagesGenealogyRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/geography': {
+      id: '/_kit/pages/geography'
+      path: '/pages/geography'
+      fullPath: '/pages/geography'
+      preLoaderRoute: typeof KitPagesGeographyRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/home': {
+      id: '/_kit/pages/home'
+      path: '/pages/home'
+      fullPath: '/pages/home'
+      preLoaderRoute: typeof KitPagesHomeRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/hub': {
+      id: '/_kit/pages/hub'
+      path: '/pages/hub'
+      fullPath: '/pages/hub'
+      preLoaderRoute: typeof KitPagesHubRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/inbox': {
+      id: '/_kit/pages/inbox'
+      path: '/pages/inbox'
+      fullPath: '/pages/inbox'
+      preLoaderRoute: typeof KitPagesInboxRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/journey': {
+      id: '/_kit/pages/journey'
+      path: '/pages/journey'
+      fullPath: '/pages/journey'
+      preLoaderRoute: typeof KitPagesJourneyRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/kickoff': {
+      id: '/_kit/pages/kickoff'
+      path: '/pages/kickoff'
+      fullPath: '/pages/kickoff'
+      preLoaderRoute: typeof KitPagesKickoffRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/live': {
+      id: '/_kit/pages/live'
+      path: '/pages/live'
+      fullPath: '/pages/live'
+      preLoaderRoute: typeof KitPagesLiveRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/playbook': {
+      id: '/_kit/pages/playbook'
+      path: '/pages/playbook'
+      fullPath: '/pages/playbook'
+      preLoaderRoute: typeof KitPagesPlaybookRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/plexus-u': {
+      id: '/_kit/pages/plexus-u'
+      path: '/pages/plexus-u'
+      fullPath: '/pages/plexus-u'
+      preLoaderRoute: typeof KitPagesPlexusURouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/points-rank': {
+      id: '/_kit/pages/points-rank'
+      path: '/pages/points-rank'
+      fullPath: '/pages/points-rank'
+      preLoaderRoute: typeof KitPagesPointsRankRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/pulse-check': {
+      id: '/_kit/pages/pulse-check'
+      path: '/pages/pulse-check'
+      fullPath: '/pages/pulse-check'
+      preLoaderRoute: typeof KitPagesPulseCheckRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/recognition': {
+      id: '/_kit/pages/recognition'
+      path: '/pages/recognition'
+      fullPath: '/pages/recognition'
+      preLoaderRoute: typeof KitPagesRecognitionRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/pages/sharing': {
+      id: '/_kit/pages/sharing'
+      path: '/pages/sharing'
+      fullPath: '/pages/sharing'
+      preLoaderRoute: typeof KitPagesSharingRouteImport
+      parentRoute: typeof KitRoute
+    }
     '/_kit/patterns/': {
       id: '/_kit/patterns/'
       path: '/patterns'
@@ -259,6 +1050,41 @@ declare module '@tanstack/react-router' {
       path: '/patterns/$id'
       fullPath: '/patterns/$id'
       preLoaderRoute: typeof KitPatternsIdRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/patterns/account': {
+      id: '/_kit/patterns/account'
+      path: '/patterns/account'
+      fullPath: '/patterns/account'
+      preLoaderRoute: typeof KitPatternsAccountRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/patterns/assist': {
+      id: '/_kit/patterns/assist'
+      path: '/patterns/assist'
+      fullPath: '/patterns/assist'
+      preLoaderRoute: typeof KitPatternsAssistRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/patterns/rank': {
+      id: '/_kit/patterns/rank'
+      path: '/patterns/rank'
+      fullPath: '/patterns/rank'
+      preLoaderRoute: typeof KitPatternsRankRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/patterns/shell': {
+      id: '/_kit/patterns/shell'
+      path: '/patterns/shell'
+      fullPath: '/patterns/shell'
+      preLoaderRoute: typeof KitPatternsShellRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/patterns/work': {
+      id: '/_kit/patterns/work'
+      path: '/patterns/work'
+      fullPath: '/patterns/work'
+      preLoaderRoute: typeof KitPatternsWorkRouteImport
       parentRoute: typeof KitRoute
     }
     '/_kit/primitives/': {
@@ -275,17 +1101,164 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KitPrimitivesIdRouteImport
       parentRoute: typeof KitRoute
     }
+    '/_kit/primitives/actions': {
+      id: '/_kit/primitives/actions'
+      path: '/primitives/actions'
+      fullPath: '/primitives/actions'
+      preLoaderRoute: typeof KitPrimitivesActionsRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/primitives/data': {
+      id: '/_kit/primitives/data'
+      path: '/primitives/data'
+      fullPath: '/primitives/data'
+      preLoaderRoute: typeof KitPrimitivesDataRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/primitives/feedback': {
+      id: '/_kit/primitives/feedback'
+      path: '/primitives/feedback'
+      fullPath: '/primitives/feedback'
+      preLoaderRoute: typeof KitPrimitivesFeedbackRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/primitives/inputs': {
+      id: '/_kit/primitives/inputs'
+      path: '/primitives/inputs'
+      fullPath: '/primitives/inputs'
+      preLoaderRoute: typeof KitPrimitivesInputsRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/primitives/navigation': {
+      id: '/_kit/primitives/navigation'
+      path: '/primitives/navigation'
+      fullPath: '/primitives/navigation'
+      preLoaderRoute: typeof KitPrimitivesNavigationRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/primitives/surfaces': {
+      id: '/_kit/primitives/surfaces'
+      path: '/primitives/surfaces'
+      fullPath: '/primitives/surfaces'
+      preLoaderRoute: typeof KitPrimitivesSurfacesRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/primitives/type': {
+      id: '/_kit/primitives/type'
+      path: '/primitives/type'
+      fullPath: '/primitives/type'
+      preLoaderRoute: typeof KitPrimitivesTypeRouteImport
+      parentRoute: typeof KitRoute
+    }
+    '/_kit/tokens/': {
+      id: '/_kit/tokens/'
+      path: '/'
+      fullPath: '/tokens/'
+      preLoaderRoute: typeof KitTokensIndexRouteImport
+      parentRoute: typeof KitTokensRoute
+    }
+    '/_kit/tokens/colors': {
+      id: '/_kit/tokens/colors'
+      path: '/colors'
+      fullPath: '/tokens/colors'
+      preLoaderRoute: typeof KitTokensColorsRouteImport
+      parentRoute: typeof KitTokensRoute
+    }
+    '/_kit/tokens/layout': {
+      id: '/_kit/tokens/layout'
+      path: '/layout'
+      fullPath: '/tokens/layout'
+      preLoaderRoute: typeof KitTokensLayoutRouteImport
+      parentRoute: typeof KitTokensRoute
+    }
+    '/_kit/tokens/states': {
+      id: '/_kit/tokens/states'
+      path: '/states'
+      fullPath: '/tokens/states'
+      preLoaderRoute: typeof KitTokensStatesRouteImport
+      parentRoute: typeof KitTokensRoute
+    }
+    '/_kit/tokens/type': {
+      id: '/_kit/tokens/type'
+      path: '/type'
+      fullPath: '/tokens/type'
+      preLoaderRoute: typeof KitTokensTypeRouteImport
+      parentRoute: typeof KitTokensRoute
+    }
   }
 }
 
+interface KitTokensRouteChildren {
+  KitTokensColorsRoute: typeof KitTokensColorsRoute
+  KitTokensLayoutRoute: typeof KitTokensLayoutRoute
+  KitTokensStatesRoute: typeof KitTokensStatesRoute
+  KitTokensTypeRoute: typeof KitTokensTypeRoute
+  KitTokensIndexRoute: typeof KitTokensIndexRoute
+}
+
+const KitTokensRouteChildren: KitTokensRouteChildren = {
+  KitTokensColorsRoute: KitTokensColorsRoute,
+  KitTokensLayoutRoute: KitTokensLayoutRoute,
+  KitTokensStatesRoute: KitTokensStatesRoute,
+  KitTokensTypeRoute: KitTokensTypeRoute,
+  KitTokensIndexRoute: KitTokensIndexRoute,
+}
+
+const KitTokensRouteWithChildren = KitTokensRoute._addFileChildren(
+  KitTokensRouteChildren,
+)
+
 interface KitRouteChildren {
-  KitTokensRoute: typeof KitTokensRoute
+  KitTokensRoute: typeof KitTokensRouteWithChildren
   KitIndexRoute: typeof KitIndexRoute
   KitComponentsIdRoute: typeof KitComponentsIdRoute
+  KitComponentsChartsRoute: typeof KitComponentsChartsRoute
+  KitComponentsChromeRoute: typeof KitComponentsChromeRoute
+  KitComponentsDashboardRoute: typeof KitComponentsDashboardRoute
+  KitComponentsFieldRoute: typeof KitComponentsFieldRoute
+  KitComponentsMetricsRoute: typeof KitComponentsMetricsRoute
+  KitComponentsPeopleRoute: typeof KitComponentsPeopleRoute
+  KitComponentsTablesRoute: typeof KitComponentsTablesRoute
+  KitComponentsWorkRoute: typeof KitComponentsWorkRoute
   KitFeaturesIdRoute: typeof KitFeaturesIdRoute
+  KitFeaturesFindRoute: typeof KitFeaturesFindRoute
+  KitFeaturesInspectRoute: typeof KitFeaturesInspectRoute
+  KitFeaturesRunThePeriodRoute: typeof KitFeaturesRunThePeriodRoute
+  KitFeaturesShareRoute: typeof KitFeaturesShareRoute
+  KitFeaturesWorkAListRoute: typeof KitFeaturesWorkAListRoute
   KitPagesSlugRoute: typeof KitPagesSlugRoute
+  KitPagesAccountRoute: typeof KitPagesAccountRoute
+  KitPagesBusinessRoute: typeof KitPagesBusinessRoute
+  KitPagesContestRoute: typeof KitPagesContestRoute
+  KitPagesCrmRoute: typeof KitPagesCrmRoute
+  KitPagesGenealogyRoute: typeof KitPagesGenealogyRoute
+  KitPagesGeographyRoute: typeof KitPagesGeographyRoute
+  KitPagesHomeRoute: typeof KitPagesHomeRoute
+  KitPagesHubRoute: typeof KitPagesHubRoute
+  KitPagesInboxRoute: typeof KitPagesInboxRoute
+  KitPagesJourneyRoute: typeof KitPagesJourneyRoute
+  KitPagesKickoffRoute: typeof KitPagesKickoffRoute
+  KitPagesLiveRoute: typeof KitPagesLiveRoute
+  KitPagesPlaybookRoute: typeof KitPagesPlaybookRoute
+  KitPagesPlexusURoute: typeof KitPagesPlexusURoute
+  KitPagesPointsRankRoute: typeof KitPagesPointsRankRoute
+  KitPagesPulseCheckRoute: typeof KitPagesPulseCheckRoute
+  KitPagesRecognitionRoute: typeof KitPagesRecognitionRoute
+  KitPagesSharingRoute: typeof KitPagesSharingRoute
   KitPatternsIdRoute: typeof KitPatternsIdRoute
+  KitPatternsAccountRoute: typeof KitPatternsAccountRoute
+  KitPatternsAssistRoute: typeof KitPatternsAssistRoute
+  KitPatternsRankRoute: typeof KitPatternsRankRoute
+  KitPatternsShellRoute: typeof KitPatternsShellRoute
+  KitPatternsWorkRoute: typeof KitPatternsWorkRoute
   KitPrimitivesIdRoute: typeof KitPrimitivesIdRoute
+  KitPrimitivesActionsRoute: typeof KitPrimitivesActionsRoute
+  KitPrimitivesDataRoute: typeof KitPrimitivesDataRoute
+  KitPrimitivesFeedbackRoute: typeof KitPrimitivesFeedbackRoute
+  KitPrimitivesInputsRoute: typeof KitPrimitivesInputsRoute
+  KitPrimitivesNavigationRoute: typeof KitPrimitivesNavigationRoute
+  KitPrimitivesSurfacesRoute: typeof KitPrimitivesSurfacesRoute
+  KitPrimitivesTypeRoute: typeof KitPrimitivesTypeRoute
   KitComponentsIndexRoute: typeof KitComponentsIndexRoute
   KitFeaturesIndexRoute: typeof KitFeaturesIndexRoute
   KitPagesIndexRoute: typeof KitPagesIndexRoute
@@ -294,13 +1267,56 @@ interface KitRouteChildren {
 }
 
 const KitRouteChildren: KitRouteChildren = {
-  KitTokensRoute: KitTokensRoute,
+  KitTokensRoute: KitTokensRouteWithChildren,
   KitIndexRoute: KitIndexRoute,
   KitComponentsIdRoute: KitComponentsIdRoute,
+  KitComponentsChartsRoute: KitComponentsChartsRoute,
+  KitComponentsChromeRoute: KitComponentsChromeRoute,
+  KitComponentsDashboardRoute: KitComponentsDashboardRoute,
+  KitComponentsFieldRoute: KitComponentsFieldRoute,
+  KitComponentsMetricsRoute: KitComponentsMetricsRoute,
+  KitComponentsPeopleRoute: KitComponentsPeopleRoute,
+  KitComponentsTablesRoute: KitComponentsTablesRoute,
+  KitComponentsWorkRoute: KitComponentsWorkRoute,
   KitFeaturesIdRoute: KitFeaturesIdRoute,
+  KitFeaturesFindRoute: KitFeaturesFindRoute,
+  KitFeaturesInspectRoute: KitFeaturesInspectRoute,
+  KitFeaturesRunThePeriodRoute: KitFeaturesRunThePeriodRoute,
+  KitFeaturesShareRoute: KitFeaturesShareRoute,
+  KitFeaturesWorkAListRoute: KitFeaturesWorkAListRoute,
   KitPagesSlugRoute: KitPagesSlugRoute,
+  KitPagesAccountRoute: KitPagesAccountRoute,
+  KitPagesBusinessRoute: KitPagesBusinessRoute,
+  KitPagesContestRoute: KitPagesContestRoute,
+  KitPagesCrmRoute: KitPagesCrmRoute,
+  KitPagesGenealogyRoute: KitPagesGenealogyRoute,
+  KitPagesGeographyRoute: KitPagesGeographyRoute,
+  KitPagesHomeRoute: KitPagesHomeRoute,
+  KitPagesHubRoute: KitPagesHubRoute,
+  KitPagesInboxRoute: KitPagesInboxRoute,
+  KitPagesJourneyRoute: KitPagesJourneyRoute,
+  KitPagesKickoffRoute: KitPagesKickoffRoute,
+  KitPagesLiveRoute: KitPagesLiveRoute,
+  KitPagesPlaybookRoute: KitPagesPlaybookRoute,
+  KitPagesPlexusURoute: KitPagesPlexusURoute,
+  KitPagesPointsRankRoute: KitPagesPointsRankRoute,
+  KitPagesPulseCheckRoute: KitPagesPulseCheckRoute,
+  KitPagesRecognitionRoute: KitPagesRecognitionRoute,
+  KitPagesSharingRoute: KitPagesSharingRoute,
   KitPatternsIdRoute: KitPatternsIdRoute,
+  KitPatternsAccountRoute: KitPatternsAccountRoute,
+  KitPatternsAssistRoute: KitPatternsAssistRoute,
+  KitPatternsRankRoute: KitPatternsRankRoute,
+  KitPatternsShellRoute: KitPatternsShellRoute,
+  KitPatternsWorkRoute: KitPatternsWorkRoute,
   KitPrimitivesIdRoute: KitPrimitivesIdRoute,
+  KitPrimitivesActionsRoute: KitPrimitivesActionsRoute,
+  KitPrimitivesDataRoute: KitPrimitivesDataRoute,
+  KitPrimitivesFeedbackRoute: KitPrimitivesFeedbackRoute,
+  KitPrimitivesInputsRoute: KitPrimitivesInputsRoute,
+  KitPrimitivesNavigationRoute: KitPrimitivesNavigationRoute,
+  KitPrimitivesSurfacesRoute: KitPrimitivesSurfacesRoute,
+  KitPrimitivesTypeRoute: KitPrimitivesTypeRoute,
   KitComponentsIndexRoute: KitComponentsIndexRoute,
   KitFeaturesIndexRoute: KitFeaturesIndexRoute,
   KitPagesIndexRoute: KitPagesIndexRoute,
@@ -316,12 +1332,3 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { createStart } from '@tanstack/react-start'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-  }
-}

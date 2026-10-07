@@ -13,12 +13,12 @@ export const Route = createFileRoute("/_kit/")({
 });
 
 const areas = [
-  { href: "/tokens", title: "Tokens", body: "Color, type, radius, spacing, and the soft elevation scale. Light and dark." },
+  { href: "/tokens", title: "Tokens", body: "Color, type, layout, and interaction states. Light and dark." },
   { href: "/primitives", title: "Primitives", body: "Every MUI component the captures actually render, with the variants found there." },
   { href: "/components", title: "Components", body: "Dashboard cards, charts, tables, chips, and the other pieces built from those primitives." },
   { href: "/features", title: "Features", body: "The jobs those components finish together. Start with pleX-Ray." },
   { href: "/patterns", title: "Patterns", body: "Full pages. Shell, contest, CRM, Pulse Check, and the rest, composed from the components." },
-  { href: "/pages", title: "Pages", body: "One card per capture, including overlays that were open when the shot was taken." },
+  { href: "/pages", title: "Pages", body: "Capture library. Each screen links through to the tokens, primitives, and pattern that construct it." },
 ] as const;
 
 function Home() {

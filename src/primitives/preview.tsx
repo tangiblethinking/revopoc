@@ -39,6 +39,7 @@ import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import Typography from "@mui/material/Typography";
 import type { ButtonProps, ChipProps } from "@mui/material";
 import { IconBell } from "@/icons/icons";
+import { TypeScale } from "@/components/TypeScale";
 import type primitives from "@/catalog/primitives.json";
 
 type Primitive = (typeof primitives)[number];
@@ -82,15 +83,23 @@ export function PrimitivePreview({ item }: { item: Primitive }) {
   const variants = pick(item.variants);
   if (item.id === "button") {
     return (
-      <Stack direction="row" spacing={2} useFlexGap flexWrap="wrap" alignItems="flex-end">
-        {variants.map((variant) => (
-          <Box key={variant.id}>
-            <Button variant={prop(variant, "variant") as ButtonProps["variant"]} size={prop(variant, "size") as ButtonProps["size"]} color={prop(variant, "color") as ButtonProps["color"]}>
-              Action
-            </Button>
-            {caption(variant)}
-          </Box>
-        ))}
+      <Stack spacing={2}>
+        <Stack direction="row" spacing={2} useFlexGap flexWrap="wrap" alignItems="flex-end">
+          {variants.map((variant) => (
+            <Box key={variant.id}>
+              <Button variant={prop(variant, "variant") as ButtonProps["variant"]} size={prop(variant, "size") as ButtonProps["size"]} color={prop(variant, "color") as ButtonProps["color"]}>
+                Action
+              </Button>
+              {caption(variant)}
+            </Box>
+          ))}
+        </Stack>
+        <Stack direction="row" spacing={1} useFlexGap flexWrap="wrap" alignItems="center">
+          <Button size="small" variant="contained">Default</Button>
+          <Button size="small" variant="contained" sx={{ bgcolor: "action.hover" }}>Hover</Button>
+          <Button size="small" variant="contained" sx={{ bgcolor: "action.active" }}>Pressed</Button>
+          <Button size="small" variant="contained" disabled>Disabled</Button>
+        </Stack>
       </Stack>
     );
   }
@@ -126,15 +135,7 @@ export function PrimitivePreview({ item }: { item: Primitive }) {
     );
   }
   if (item.id === "typography") {
-    return (
-      <Stack spacing={1}>
-        {variants.map((variant) => (
-          <Typography key={variant.id} variant={prop(variant, "variant") as "body1"}>
-            {prop(variant, "variant")} — The quick briefing
-          </Typography>
-        ))}
-      </Stack>
-    );
+    return <TypeScale />;
   }
   if (item.id === "paper") {
     return (

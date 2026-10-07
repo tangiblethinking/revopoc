@@ -29,7 +29,8 @@ function PrimitivePage() {
     .slice(0, 6)
     .map((variant) => primitiveSnippet(item.name, variant, variant.capture || folder))
     .join("\n\n");
-  const tokens = ["palette.primary.main", "palette.text.primary", "palette.divider", "--mui-shape-borderRadius"];
+  const interactive = ["button", "iconButton", "chip", "toggleButton", "link", "textField", "select", "list", "tabs", "menu"].includes(item.id);
+  const tokens = ["palette.primary.main", "palette.text.primary", "palette.divider", "--mui-shape-borderRadius", ...(interactive ? ["action.hover"] : [])];
   return (
     <Box sx={{ minWidth: 0, maxWidth: "100%" }}>
       <ReturnTo />
@@ -39,7 +40,7 @@ function PrimitivePage() {
       </Typography>
       <Box sx={{ display: "flex", gap: 0.75, flexWrap: "wrap", mb: 2 }}>
         {tokens.map((token) => (
-          <Link key={token} to="/tokens" search={{ from: `/primitives/${id}` }} hash={token} style={{ textDecoration: "none" }}>
+          <Link key={token} to={token.startsWith("action.") ? "/tokens/states" : token.startsWith("--mui-shape") ? "/tokens/layout" : "/tokens/colors"} search={{ from: `/primitives/${id}` }} style={{ textDecoration: "none" }}>
             <Chip size="small" clickable variant="outlined" label={token} />
           </Link>
         ))}

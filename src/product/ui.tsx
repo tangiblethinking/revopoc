@@ -260,6 +260,9 @@ export function CoachAction() {
       <Box sx={{ flex: 1, minWidth: 180 }}>
         <Typography variant="body2">No second order after the enrollment bonus. A short call beats another message.</Typography>
       </Box>
+      <Button size="small" variant="outlined" disabled>
+        Call
+      </Button>
       <Button size="small" variant="outlined">
         Message
       </Button>
@@ -678,8 +681,8 @@ export function ActionList() {
           </Box>
           <Chip size="small" variant="outlined" color="secondary" label={when} />
           <StatusChip label={status} tone={status === "At risk" ? "error" : status === "Watch" ? "warning" : "primary"} />
-          <Button size="small" variant="outlined">
-            Done
+          <Button size="small" variant="outlined" disabled={status === "New"}>
+            {status === "New" ? "Waiting" : "Done"}
           </Button>
         </Paper>
       ))}
@@ -781,6 +784,9 @@ export function ProfileForm() {
       <TextField size="small" label="Rank" defaultValue="Diamond" fullWidth disabled />
       <Button size="small" variant="contained" sx={{ alignSelf: "flex-start" }}>
         Save
+      </Button>
+      <Button size="small" variant="text" disabled>
+        Reset
       </Button>
     </Stack>
   );
@@ -907,6 +913,9 @@ export function LiveSession() {
       </Box>
       <Button size="small" variant="contained">
         Join
+      </Button>
+      <Button size="small" variant="outlined" disabled>
+        Replay
       </Button>
     </Paper>
   );

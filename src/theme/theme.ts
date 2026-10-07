@@ -1,4 +1,5 @@
 import { createTheme, type Shadows } from "@mui/material/styles";
+import { darkNeutral, fontFamily, lightNeutral, typeScale } from "@/theme/tokens";
 
 export interface NeutralScale {
   50: string;
@@ -34,8 +35,6 @@ declare module "@mui/material/styles" {
   }
 }
 
-const fontFamily = '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif';
-
 const shadows = [
   "none",
   "0px 1px 2px var(--mui-palette-shadow)",
@@ -64,41 +63,16 @@ const shadows = [
   "0px 9px 46px var(--mui-palette-shadow)",
 ] as Shadows;
 
-const lightNeutral: NeutralScale = {
-  50: "#f5f6f8",
-  100: "#eef1f5",
-  200: "#e6e9ee",
-  300: "#d2d7de",
-  400: "#aab2bd",
-  500: "#8a93a2",
-  600: "#5a6473",
-  700: "#424b59",
-  800: "#2a323e",
-  900: "#1a2230",
-  950: "#0f1520",
-  main: "#8a93a2",
-  light: "#aab2bd",
-  dark: "#5a6473",
-  contrastText: "#fff",
-};
-
-const darkNeutral: NeutralScale = {
-  50: "#fbfcfe",
-  100: "#f0f4f8",
-  200: "#dde7ee",
-  300: "#cdd7e1",
-  400: "#9fa6ad",
-  500: "#636b74",
-  600: "#555e68",
-  700: "#32383e",
-  800: "#202427",
-  900: "#121517",
-  950: "#090a0b",
-  main: "#636b74",
-  light: "#9fa6ad",
-  dark: "#32383e",
-  contrastText: "#fff",
-};
+const typography = Object.fromEntries(
+  typeScale.map((item) => [
+    item.name,
+    item.name === "button"
+      ? { textTransform: "none" as const, fontWeight: item.weight, fontSize: item.size, lineHeight: item.lineHeight }
+      : item.name === "overline"
+        ? { fontWeight: item.weight, fontSize: item.size, lineHeight: item.lineHeight, letterSpacing: "0.08em", textTransform: "uppercase" as const }
+        : { fontWeight: item.weight, fontSize: item.size, lineHeight: item.lineHeight },
+  ]),
+);
 
 export const theme = createTheme({
   cssVariables: { colorSchemeSelector: "class" },
@@ -122,6 +96,13 @@ export const theme = createTheme({
         },
         text: { primary: "#1a2230", secondary: "#5a6473" },
         divider: "#e6e9ee",
+        action: {
+          hoverOpacity: 0.04,
+          selectedOpacity: 0.08,
+          focusOpacity: 0.12,
+          activatedOpacity: 0.12,
+          disabledOpacity: 0.38,
+        },
       },
     },
     dark: {
@@ -143,29 +124,82 @@ export const theme = createTheme({
         },
         text: { primary: "#f0f4f8", secondary: "#9fa6ad" },
         divider: "#32383e",
+        action: {
+          hoverOpacity: 0.08,
+          selectedOpacity: 0.12,
+          focusOpacity: 0.16,
+          activatedOpacity: 0.16,
+          disabledOpacity: 0.38,
+        },
       },
     },
   },
   shape: { borderRadius: 8 },
   spacing: 8,
   shadows,
-  typography: {
-    fontFamily,
-    h1: { fontWeight: 500, fontSize: "3.5rem", lineHeight: 1.2 },
-    h2: { fontWeight: 500, fontSize: "3rem", lineHeight: 1.2 },
-    h3: { fontWeight: 500, fontSize: "2.25rem", lineHeight: 1.2 },
-    h4: { fontWeight: 500, fontSize: "2rem", lineHeight: 1.2 },
-    h5: { fontWeight: 500, fontSize: "1.5rem", lineHeight: 1.2 },
-    h6: { fontWeight: 500, fontSize: "1.125rem", lineHeight: 1.2 },
-    subtitle1: { fontWeight: 500, fontSize: "1rem", lineHeight: 1.57 },
-    subtitle2: { fontWeight: 500, fontSize: "0.875rem", lineHeight: 1.57 },
-    body1: { fontWeight: 400, fontSize: "1rem", lineHeight: 1.5 },
-    body2: { fontWeight: 400, fontSize: "0.875rem", lineHeight: 1.57 },
-    button: { textTransform: "none", fontWeight: 500, fontSize: "0.875rem", lineHeight: 1.75 },
-    caption: { fontWeight: 400, fontSize: "0.75rem", lineHeight: 1.66 },
-  },
+  typography: { fontFamily, ...typography },
   components: {
-    MuiButton: { defaultProps: { disableElevation: true } },
+    MuiButtonBase: {
+      styleOverrides: {
+        root: ({ theme: mui }) => ({
+          "&.Mui-focusVisible": {
+            outline: `2px solid ${mui.vars.palette.primary.main}`,
+            outlineOffset: 2,
+          },
+        }),
+      },
+    },
+    MuiButton: {
+      defaultProps: { disableElevation: true },
+      styleOverrides: {
+        root: ({ theme: mui }) => ({
+          "&:hover": { backgroundColor: mui.vars.palette.action.hover },
+          "&:active": { backgroundColor: mui.vars.palette.action.active },
+          "&.Mui-disabled": { color: mui.vars.palette.action.disabled },
+        }),
+        contained: ({ theme: mui }) => ({
+          "&.Mui-disabled": {
+            color: mui.vars.palette.action.disabled,
+            backgroundColor: mui.vars.palette.action.disabledBackground,
+          },
+        }),
+        outlined: ({ theme: mui }) => ({
+          "&.Mui-disabled": {
+            color: mui.vars.palette.action.disabled,
+            borderColor: mui.vars.palette.action.disabledBackground,
+          },
+        }),
+      },
+    },
+    MuiIconButton: {
+      styleOverrides: {
+        root: ({ theme: mui }) => ({
+          "&:hover": { backgroundColor: mui.vars.palette.action.hover },
+          "&:active": { backgroundColor: mui.vars.palette.action.active },
+          "&.Mui-disabled": { color: mui.vars.palette.action.disabled },
+        }),
+      },
+    },
+    MuiChip: {
+      styleOverrides: {
+        root: ({ theme: mui }) => ({
+          "&.Mui-disabled": {
+            opacity: 1,
+            color: mui.vars.palette.action.disabled,
+            backgroundColor: mui.vars.palette.action.disabledBackground,
+          },
+        }),
+      },
+    },
+    MuiListItemButton: {
+      styleOverrides: {
+        root: ({ theme: mui }) => ({
+          "&:hover": { backgroundColor: mui.vars.palette.action.hover },
+          "&.Mui-selected": { backgroundColor: mui.vars.palette.action.selected },
+          "&.Mui-disabled": { color: mui.vars.palette.action.disabled },
+        }),
+      },
+    },
     MuiPaper: { styleOverrides: { root: { backgroundImage: "none" } } },
     MuiCssBaseline: {
       styleOverrides: {
