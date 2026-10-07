@@ -1,0 +1,1766 @@
+[
+  {
+    "id": "app-shell",
+    "title": "App shell",
+    "folder": "dashboard",
+    "summary": "Side nav at 252px, top bar, impersonation chip, and people search.",
+    "shot": "/shots/dashboard.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 284
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 130
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 113
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 44
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 27
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 19
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 10
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "dashboard-home",
+    "title": "Dashboard home",
+    "folder": "dashboard",
+    "summary": "Daily briefing, contest summary, Pulse Check, and the growth table.",
+    "shot": "/shots/dashboard.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 284
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 130
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 113
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 44
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 27
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 19
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 10
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "plex-ray",
+    "title": "pleX-Ray",
+    "folder": "dashboard-contest__plex-ray",
+    "summary": "Quick View dialog used from contest, CRM, genealogy, playbook, and recognition.",
+    "shot": "/shots/dashboard-contest__plex-ray.png",
+    "classes": [
+      {
+        "name": "MuiTableCell-root",
+        "count": 338
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 317
+      },
+      {
+        "name": "MuiBox-root",
+        "count": 258
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 149
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 52
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 31
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 22
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 18
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 7
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "plexi-glass",
+    "title": "PleXi-Glass",
+    "folder": "dashboard__open-plexi-glass",
+    "summary": "ML coaching view with focus areas and a suggested next step.",
+    "shot": "/shots/dashboard__open-plexi-glass.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 326
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 158
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 141
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 51
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 34
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 33
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 28
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 11
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "ask-plexi",
+    "title": "Ask Plexi",
+    "folder": "dashboard__ask-plexi",
+    "summary": "Right-side coaching drawer.",
+    "shot": "/shots/dashboard__ask-plexi.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 299
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 133
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 118
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 49
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 29
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 22
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 11
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "command-palette",
+    "title": "Command palette",
+    "folder": "dashboard__search",
+    "summary": "Cmd+K search dialog for people.",
+    "shot": "/shots/dashboard__search.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 284
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 131
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 114
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 43
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 19
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 11
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "settings-drawer",
+    "title": "Settings drawer",
+    "folder": "dashboard__settings",
+    "summary": "Appearance, density, and language.",
+    "shot": "/shots/dashboard__settings.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 307
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 133
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 130
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 59
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 34
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 27
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 11
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "notifications",
+    "title": "Notifications",
+    "folder": "dashboard__notifications",
+    "summary": "Bell popover with unread items.",
+    "shot": "/shots/dashboard__notifications.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 305
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 191
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 133
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 83
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 46
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 21
+      },
+      {
+        "name": "MuiListItem-root",
+        "count": 20
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 19
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "page-guide",
+    "title": "Page guide",
+    "folder": "dashboard__page-guide",
+    "summary": "driver.js-style tour step over the daily briefing.",
+    "shot": "/shots/dashboard__page-guide.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 284
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 130
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 112
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 42
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 25
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 19
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 10
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "contest",
+    "title": "Contest",
+    "folder": "dashboard-contest",
+    "summary": "Contest detail, filters, and a dense small table.",
+    "shot": "/shots/dashboard-contest.png",
+    "classes": [
+      {
+        "name": "MuiTableCell-root",
+        "count": 338
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 282
+      },
+      {
+        "name": "MuiBox-root",
+        "count": 225
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 133
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 52
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 51
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 14
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 11
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 6
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "new-contest",
+    "title": "New contest",
+    "folder": "dashboard-admin-contest__new-contest",
+    "summary": "Admin create-contest dialog.",
+    "shot": "/shots/dashboard-admin-contest__new-contest.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 193
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 52
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 33
+      },
+      {
+        "name": "MuiInputLabel-root",
+        "count": 10
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 9
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiFormControl-root",
+        "count": 5
+      },
+      {
+        "name": "MuiTextField-root",
+        "count": 5
+      },
+      {
+        "name": "MuiFormLabel-root",
+        "count": 5
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "crm",
+    "title": "CRM",
+    "folder": "dashboard-crm",
+    "summary": "Saved views, row status, and notes entry point.",
+    "shot": "/shots/dashboard-crm.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 228
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 100
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 87
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 62
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 46
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 33
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 21
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 18
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 6
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "crm-person",
+    "title": "CRM person",
+    "folder": "dashboard-crm-5423",
+    "summary": "Person page with rank, PV, and activity.",
+    "shot": "/shots/dashboard-crm-5423.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 274
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 157
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 133
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 71
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 61
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 33
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 18
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 14
+      },
+      {
+        "name": "MuiSvgIcon-root",
+        "count": 14
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "inbox",
+    "title": "Inbox",
+    "folder": "dashboard-my-inbox",
+    "summary": "Message list, thread, and new chat.",
+    "shot": "/shots/dashboard-my-inbox.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 198
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 48
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 28
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 9
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 8
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 2
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 1
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "playbook",
+    "title": "Playbook",
+    "folder": "dashboard-playbook",
+    "summary": "Follow-up queue with actions.",
+    "shot": "/shots/dashboard-playbook.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 247
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 86
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 66
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 59
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 48
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 36
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 11
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 10
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 8
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 4
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "pulse-check",
+    "title": "Pulse Check",
+    "folder": "dashboard-pulse-check",
+    "summary": "Forecast scenarios for the team.",
+    "shot": "/shots/dashboard-pulse-check.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 331
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 253
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 191
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 102
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 75
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 74
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 68
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 33
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 29
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 28
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "points-rank",
+    "title": "Points & rank",
+    "folder": "dashboard-points-rank",
+    "summary": "Rank period and progress toward the next tier.",
+    "shot": "/shots/dashboard-points-rank.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 251
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 132
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 77
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 65
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 21
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 17
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 16
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 14
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 11
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 11
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "genealogy",
+    "title": "Genealogy",
+    "folder": "dashboard-genealogy",
+    "summary": "Downline tree with rank chips.",
+    "shot": "/shots/dashboard-genealogy.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 598
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 490
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 330
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 91
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 86
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 80
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiToggleButton-root",
+        "count": 2
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 2
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 1
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "geography",
+    "title": "Geography",
+    "folder": "dashboard-geography",
+    "summary": "GeoPulse enrollment measures by region.",
+    "shot": "/shots/dashboard-geography.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 254
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 52
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 32
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiInputLabel-root",
+        "count": 4
+      },
+      {
+        "name": "MuiFormControl-root",
+        "count": 2
+      },
+      {
+        "name": "MuiFormLabel-root",
+        "count": 2
+      },
+      {
+        "name": "MuiInputBase-root",
+        "count": 2
+      },
+      {
+        "name": "MuiOutlinedInput-root",
+        "count": 2
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "sharing",
+    "title": "Sharing",
+    "folder": "dashboard-sharing-plexus",
+    "summary": "Share links and the QR dialog.",
+    "shot": "/shots/dashboard-sharing-plexus.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 353
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 204
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 154
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 124
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 47
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 44
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 30
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 22
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 20
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 18
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "my-account",
+    "title": "My account",
+    "folder": "dashboard-my-account",
+    "summary": "Profile and add-to-subscription.",
+    "shot": "/shots/dashboard-my-account.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 252
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 76
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 35
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 10
+      },
+      {
+        "name": "MuiInputLabel-root",
+        "count": 10
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 7
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 5
+      },
+      {
+        "name": "MuiFormControl-root",
+        "count": 5
+      },
+      {
+        "name": "MuiFormLabel-root",
+        "count": 5
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "my-business",
+    "title": "My business",
+    "folder": "dashboard-my-business",
+    "summary": "Business summary and period comparison.",
+    "shot": "/shots/dashboard-my-business.png",
+    "classes": [
+      {
+        "name": "MuiTypography-root",
+        "count": 585
+      },
+      {
+        "name": "MuiBox-root",
+        "count": 581
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 308
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 285
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 75
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 73
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 72
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 55
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 44
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 40
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "hub",
+    "title": "Plexus Hub",
+    "folder": "dashboard-plexus-hub",
+    "summary": "Hub list and a HUB-001 style detail header.",
+    "shot": "/shots/dashboard-plexus-hub.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 243
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 88
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 61
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 13
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 12
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 12
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 12
+      },
+      {
+        "name": "MuiGrid-root",
+        "count": 12
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 11
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 8
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "plexus-u",
+    "title": "Plexus U",
+    "folder": "dashboard-plexus-u",
+    "summary": "Course list and lesson detail.",
+    "shot": "/shots/dashboard-plexus-u.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 260
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 193
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 122
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 77
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 18
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 17
+      },
+      {
+        "name": "MuiGrid-root",
+        "count": 15
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 15
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 13
+      },
+      {
+        "name": "MuiCircularProgress-root",
+        "count": 12
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "live",
+    "title": "Plexus Live",
+    "folder": "dashboard-plexus-live",
+    "summary": "Live session shell.",
+    "shot": "/shots/dashboard-plexus-live.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 224
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 115
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 46
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 20
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 12
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiTab-root",
+        "count": 5
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 3
+      },
+      {
+        "name": "MuiLinearProgress-root",
+        "count": 3
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 2
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "recognition",
+    "title": "Recognition",
+    "folder": "dashboard-recognition",
+    "summary": "Recognition feed and rank moments.",
+    "shot": "/shots/dashboard-recognition.png",
+    "classes": [
+      {
+        "name": "MuiTableCell-root",
+        "count": 291
+      },
+      {
+        "name": "MuiBox-root",
+        "count": 286
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 211
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 61
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 59
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 22
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 14
+      },
+      {
+        "name": "MuiSvgIcon-root",
+        "count": 14
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 11
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 10
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "kickoff",
+    "title": "Monthly kickoff",
+    "folder": "dashboard-monthly-kickoff",
+    "summary": "Kickoff agenda and attendance.",
+    "shot": "/shots/dashboard-monthly-kickoff.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 310
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 132
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 28
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 16
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 7
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiLink-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      },
+      {
+        "name": "MuiModal-root",
+        "count": 1
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  },
+  {
+    "id": "journey",
+    "title": "360 Journey",
+    "folder": "dashboard-360-journey",
+    "summary": "Journey stages from launch to leadership.",
+    "shot": "/shots/dashboard-360-journey.png",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 448
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 186
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 44
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 28
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 14
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 7
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      },
+      {
+        "name": "MuiModal-root",
+        "count": 1
+      },
+      {
+        "name": "MuiBackdrop-root",
+        "count": 1
+      }
+    ],
+    "tokens": [
+      "palette.primary.main",
+      "palette.background.paper",
+      "palette.background.default",
+      "palette.text.primary",
+      "palette.text.secondary",
+      "palette.divider",
+      "palette.success.main",
+      "palette.warning.main",
+      "palette.error.main",
+      "--SideNav-width",
+      "--mui-shape-borderRadius",
+      "--mui-shadows-1"
+    ]
+  }
+]

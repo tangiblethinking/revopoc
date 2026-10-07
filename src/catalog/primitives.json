@@ -1,0 +1,722 @@
+[
+  {
+    "id": "button",
+    "name": "Button",
+    "description": "Text and outlined, size small, are the working styles. Contained is reserved for the primary commit.",
+    "variants": [
+      {
+        "id": "text-small-primary",
+        "label": "text · small · primary",
+        "props": {
+          "variant": "text",
+          "size": "small",
+          "color": "primary"
+        },
+        "count": 280,
+        "capture": "dashboard"
+      },
+      {
+        "id": "outlined-small-primary",
+        "label": "outlined · small · primary",
+        "props": {
+          "variant": "outlined",
+          "size": "small",
+          "color": "primary"
+        },
+        "count": 221,
+        "capture": "dashboard"
+      },
+      {
+        "id": "contained-small-primary",
+        "label": "contained · small · primary",
+        "props": {
+          "variant": "contained",
+          "size": "small",
+          "color": "primary"
+        },
+        "count": 39,
+        "capture": "dashboard"
+      },
+      {
+        "id": "contained-medium-primary",
+        "label": "contained · medium · primary",
+        "props": {
+          "variant": "contained",
+          "size": "medium",
+          "color": "primary"
+        },
+        "count": 13,
+        "capture": "dashboard-admin-contest"
+      },
+      {
+        "id": "text-small-inherit",
+        "label": "text · small · inherit",
+        "props": {
+          "variant": "text",
+          "size": "small",
+          "color": "inherit"
+        },
+        "count": 7,
+        "capture": "dashboard-crm"
+      },
+      {
+        "id": "outlined-medium-primary",
+        "label": "outlined · medium · primary",
+        "props": {
+          "variant": "outlined",
+          "size": "medium",
+          "color": "primary"
+        },
+        "count": 6,
+        "capture": "dashboard-monthly-kickoff"
+      },
+      {
+        "id": "outlined-small-inherit",
+        "label": "outlined · small · inherit",
+        "props": {
+          "variant": "outlined",
+          "size": "small",
+          "color": "inherit"
+        },
+        "count": 4,
+        "capture": "dashboard-360-journey"
+      },
+      {
+        "id": "text-medium-primary",
+        "label": "text · medium · primary",
+        "props": {
+          "variant": "text",
+          "size": "medium",
+          "color": "primary"
+        },
+        "count": 2,
+        "capture": "dashboard-admin-contest__new-contest"
+      },
+      {
+        "id": "text-medium-secondary",
+        "label": "text · medium · secondary",
+        "props": {
+          "variant": "text",
+          "size": "medium",
+          "color": "secondary"
+        },
+        "count": 2,
+        "capture": "dashboard-my-account"
+      },
+      {
+        "id": "text-medium-inherit",
+        "label": "text · medium · inherit",
+        "props": {
+          "variant": "text",
+          "size": "medium",
+          "color": "inherit"
+        },
+        "count": 1,
+        "capture": "dashboard-my-inbox__new-chat"
+      }
+    ]
+  },
+  {
+    "id": "iconButton",
+    "name": "IconButton",
+    "description": "Secondary and inherit icon buttons sit in the top bar and row actions.",
+    "variants": [
+      {
+        "id": "small-secondary",
+        "label": "small · secondary",
+        "props": {
+          "size": "small",
+          "color": "secondary"
+        },
+        "count": 593,
+        "capture": "dashboard"
+      },
+      {
+        "id": "medium-secondary",
+        "label": "medium · secondary",
+        "props": {
+          "size": "medium",
+          "color": "secondary"
+        },
+        "count": 392,
+        "capture": "dashboard"
+      },
+      {
+        "id": "medium-inherit",
+        "label": "medium · inherit",
+        "props": {
+          "size": "medium",
+          "color": "inherit"
+        },
+        "count": 116,
+        "capture": "dashboard"
+      }
+    ]
+  },
+  {
+    "id": "chip",
+    "name": "Chip",
+    "description": "Small chips carry rank, status, and saved-view labels. Outlined secondary is the quiet default.",
+    "variants": [
+      {
+        "id": "outlined-small-secondary",
+        "label": "outlined · small · secondary",
+        "props": {
+          "variant": "outlined",
+          "size": "small",
+          "color": "secondary"
+        },
+        "count": 694,
+        "capture": "dashboard"
+      },
+      {
+        "id": "filled-small-secondary",
+        "label": "filled · small · secondary",
+        "props": {
+          "variant": "filled",
+          "size": "small",
+          "color": "secondary"
+        },
+        "count": 142,
+        "capture": "dashboard-crm"
+      },
+      {
+        "id": "filled-small-error",
+        "label": "filled · small · error",
+        "props": {
+          "variant": "filled",
+          "size": "small",
+          "color": "error"
+        },
+        "count": 114,
+        "capture": "dashboard"
+      },
+      {
+        "id": "filled-small-success",
+        "label": "filled · small · success",
+        "props": {
+          "variant": "filled",
+          "size": "small",
+          "color": "success"
+        },
+        "count": 106,
+        "capture": "dashboard"
+      },
+      {
+        "id": "outlined-small-error",
+        "label": "outlined · small · error",
+        "props": {
+          "variant": "outlined",
+          "size": "small",
+          "color": "error"
+        },
+        "count": 96,
+        "capture": "dashboard-crm-5423"
+      },
+      {
+        "id": "outlined-small-default",
+        "label": "outlined · small · default",
+        "props": {
+          "variant": "outlined",
+          "size": "small",
+          "color": "default"
+        },
+        "count": 76,
+        "capture": "dashboard-my-business"
+      },
+      {
+        "id": "filled-small-primary",
+        "label": "filled · small · primary",
+        "props": {
+          "variant": "filled",
+          "size": "small",
+          "color": "primary"
+        },
+        "count": 71,
+        "capture": "dashboard-contest__plex-ray"
+      },
+      {
+        "id": "outlined-small-info",
+        "label": "outlined · small · info",
+        "props": {
+          "variant": "outlined",
+          "size": "small",
+          "color": "info"
+        },
+        "count": 61,
+        "capture": "dashboard-crm-5423"
+      },
+      {
+        "id": "outlined-small-success",
+        "label": "outlined · small · success",
+        "props": {
+          "variant": "outlined",
+          "size": "small",
+          "color": "success"
+        },
+        "count": 60,
+        "capture": "dashboard-crm"
+      },
+      {
+        "id": "outlined-small-warning",
+        "label": "outlined · small · warning",
+        "props": {
+          "variant": "outlined",
+          "size": "small",
+          "color": "warning"
+        },
+        "count": 44,
+        "capture": "dashboard"
+      },
+      {
+        "id": "filled-small-warning",
+        "label": "filled · small · warning",
+        "props": {
+          "variant": "filled",
+          "size": "small",
+          "color": "warning"
+        },
+        "count": 33,
+        "capture": "dashboard"
+      },
+      {
+        "id": "filled-small-info",
+        "label": "filled · small · info",
+        "props": {
+          "variant": "filled",
+          "size": "small",
+          "color": "info"
+        },
+        "count": 30,
+        "capture": "dashboard-crm-5423"
+      },
+      {
+        "id": "filled-medium-secondary",
+        "label": "filled · medium · secondary",
+        "props": {
+          "variant": "filled",
+          "size": "medium",
+          "color": "secondary"
+        },
+        "count": 15,
+        "capture": "dashboard__settings"
+      },
+      {
+        "id": "outlined-small-primary",
+        "label": "outlined · small · primary",
+        "props": {
+          "variant": "outlined",
+          "size": "small",
+          "color": "primary"
+        },
+        "count": 13,
+        "capture": "dashboard"
+      },
+      {
+        "id": "filled-small-default",
+        "label": "filled · small · default",
+        "props": {
+          "variant": "filled",
+          "size": "small",
+          "color": "default"
+        },
+        "count": 10,
+        "capture": "dashboard-sharing-plexus"
+      }
+    ]
+  },
+  {
+    "id": "typography",
+    "name": "Typography",
+    "description": "Inter at the product scale. Headings are weight 500. Buttons do not uppercase.",
+    "variants": [
+      {
+        "id": "body1",
+        "label": "body1",
+        "props": {
+          "variant": "body1"
+        },
+        "count": 6593,
+        "capture": "dashboard"
+      },
+      {
+        "id": "body2",
+        "label": "body2",
+        "props": {
+          "variant": "body2"
+        },
+        "count": 1581,
+        "capture": "dashboard"
+      },
+      {
+        "id": "caption",
+        "label": "caption",
+        "props": {
+          "variant": "caption"
+        },
+        "count": 1503,
+        "capture": "dashboard"
+      },
+      {
+        "id": "h4",
+        "label": "h4",
+        "props": {
+          "variant": "h4"
+        },
+        "count": 218,
+        "capture": "dashboard"
+      },
+      {
+        "id": "subtitle2",
+        "label": "subtitle2",
+        "props": {
+          "variant": "subtitle2"
+        },
+        "count": 156,
+        "capture": "dashboard-crm-5423"
+      },
+      {
+        "id": "subtitle1",
+        "label": "subtitle1",
+        "props": {
+          "variant": "subtitle1"
+        },
+        "count": 136,
+        "capture": "dashboard"
+      },
+      {
+        "id": "h6",
+        "label": "h6",
+        "props": {
+          "variant": "h6"
+        },
+        "count": 136,
+        "capture": "dashboard-admin-contest__new-contest"
+      },
+      {
+        "id": "h5",
+        "label": "h5",
+        "props": {
+          "variant": "h5"
+        },
+        "count": 120,
+        "capture": "dashboard-genealogy"
+      },
+      {
+        "id": "h3",
+        "label": "h3",
+        "props": {
+          "variant": "h3"
+        },
+        "count": 5,
+        "capture": "dashboard-plexus-hub-HUB-001"
+      },
+      {
+        "id": "overline",
+        "label": "overline",
+        "props": {
+          "variant": "overline"
+        },
+        "count": 3,
+        "capture": "dashboard-plexus-live"
+      }
+    ]
+  },
+  {
+    "id": "paper",
+    "name": "Paper",
+    "description": "Elevation 1 is the working surface. Background image is forced off so dark mode stays flat.",
+    "variants": [
+      {
+        "id": "elevation1",
+        "label": "elevation1",
+        "props": {
+          "elevation": "1"
+        },
+        "count": 648,
+        "capture": "dashboard"
+      },
+      {
+        "id": "flat",
+        "label": "flat",
+        "props": {
+          "elevation": "0"
+        },
+        "count": 96,
+        "capture": "dashboard"
+      }
+    ]
+  },
+  {
+    "id": "card",
+    "name": "Card",
+    "description": "Paper plus header and content. Used for briefing, courses, and hub items.",
+    "variants": [
+      {
+        "id": "elevation1",
+        "label": "elevation 1",
+        "props": {
+          "elevation": "1"
+        },
+        "count": 648,
+        "capture": "dashboard"
+      }
+    ]
+  },
+  {
+    "id": "divider",
+    "name": "Divider",
+    "description": "Full-width rules on divider token #e6e9ee / #32383e.",
+    "variants": [
+      {
+        "id": "fullWidth",
+        "label": "fullWidth",
+        "props": {
+          "orientation": "horizontal"
+        },
+        "count": 168,
+        "capture": "dashboard"
+      }
+    ]
+  },
+  {
+    "id": "table",
+    "name": "Table",
+    "description": "size=\"small\" is the dominant table. Rows hover. Header cells are caption weight.",
+    "variants": [
+      {
+        "id": "size-small",
+        "label": "small cell",
+        "props": {
+          "size": "small"
+        },
+        "count": 5589,
+        "capture": "dashboard"
+      }
+    ]
+  },
+  {
+    "id": "select",
+    "name": "Select",
+    "description": "Outlined, small, used for period, measure, and rank filters.",
+    "variants": [
+      {
+        "id": "outlined-small",
+        "label": "outlined",
+        "props": {
+          "variant": "outlined",
+          "size": "small"
+        },
+        "count": 147,
+        "capture": "dashboard"
+      },
+      {
+        "id": "outlined",
+        "label": "outlined",
+        "props": {
+          "variant": "outlined",
+          "size": "medium"
+        },
+        "count": 5,
+        "capture": "dashboard-my-account"
+      }
+    ]
+  },
+  {
+    "id": "linearProgress",
+    "name": "LinearProgress",
+    "description": "Determinate bars for rank progress and course completion.",
+    "variants": [
+      {
+        "id": "determinate",
+        "label": "determinate",
+        "props": {
+          "variant": "determinate"
+        },
+        "count": 80,
+        "capture": "dashboard"
+      }
+    ]
+  },
+  {
+    "id": "toggleButton",
+    "name": "ToggleButton",
+    "description": "Segmented filters. Small is the size used beside tables.",
+    "variants": [
+      {
+        "id": "small",
+        "label": "small",
+        "props": {
+          "size": "small"
+        },
+        "count": 28,
+        "capture": "dashboard"
+      }
+    ]
+  },
+  {
+    "id": "avatar",
+    "name": "Avatar",
+    "description": "Circular initials. Default fill follows neutral, not a photo.",
+    "variants": [
+      {
+        "id": "circular",
+        "label": "circular",
+        "props": {
+          "variant": "circular"
+        },
+        "count": 142,
+        "capture": "dashboard"
+      }
+    ]
+  },
+  {
+    "id": "drawer",
+    "name": "Drawer",
+    "description": "Right anchor for Ask Plexi and settings. Permanent left nav is a Box, not this drawer.",
+    "variants": [
+      {
+        "id": "temporary-right",
+        "label": "temporary",
+        "props": {
+          "anchor": "right",
+          "variant": "temporary"
+        },
+        "count": 64,
+        "capture": "dashboard"
+      }
+    ]
+  },
+  {
+    "id": "dialog",
+    "name": "Dialog",
+    "description": "pleX-Ray, search, new contest, and QR all sit in Dialog.",
+    "variants": [
+      {
+        "id": "dialog",
+        "label": "dialog",
+        "props": {
+          "fullWidth": "true",
+          "maxWidth": "sm"
+        },
+        "count": 16,
+        "capture": "dashboard-admin-contest__new-contest"
+      }
+    ]
+  },
+  {
+    "id": "link",
+    "name": "Link",
+    "description": "Inline links inherit primary and do not introduce a second type style.",
+    "variants": [
+      {
+        "id": "primary",
+        "label": "primary",
+        "props": {
+          "color": "primary",
+          "underline": "hover"
+        },
+        "count": 39,
+        "capture": "dashboard"
+      }
+    ]
+  },
+  {
+    "id": "textField",
+    "name": "TextField",
+    "description": "Outlined fields for search, profile, notes, and the PleXi prompt. Small is the working size.",
+    "variants": [
+      {
+        "id": "outlined-small",
+        "label": "outlined · small",
+        "props": { "variant": "outlined", "size": "small" },
+        "count": 49,
+        "capture": "dashboard"
+      }
+    ]
+  },
+  {
+    "id": "menu",
+    "name": "Menu",
+    "description": "Language, row actions, and message menus. MenuItem is the only child.",
+    "variants": [
+      {
+        "id": "menu",
+        "label": "menu",
+        "props": { "variant": "menu" },
+        "count": 132,
+        "capture": "dashboard__language"
+      }
+    ]
+  },
+  {
+    "id": "popover",
+    "name": "Popover",
+    "description": "Notifications and the page-guide step. Anchored, not a full dialog.",
+    "variants": [
+      {
+        "id": "popover",
+        "label": "popover",
+        "props": { "anchorOrigin": "bottom" },
+        "count": 5,
+        "capture": "dashboard__notifications"
+      }
+    ]
+  },
+  {
+    "id": "tabs",
+    "name": "Tabs",
+    "description": "Saved CRM views. Text tabs, small labels, one selected.",
+    "variants": [
+      {
+        "id": "tabs",
+        "label": "standard",
+        "props": { "variant": "standard" },
+        "count": 5,
+        "capture": "dashboard-crm"
+      }
+    ]
+  },
+  {
+    "id": "breadcrumbs",
+    "name": "Breadcrumbs",
+    "description": "Hub and lesson trails. Separator is the default slash.",
+    "variants": [
+      {
+        "id": "breadcrumbs",
+        "label": "breadcrumbs",
+        "props": {},
+        "count": 3,
+        "capture": "dashboard-plexus-hub"
+      }
+    ]
+  },
+  {
+    "id": "circularProgress",
+    "name": "CircularProgress",
+    "description": "Indeterminate wait on course and live states, plus a few determinate rings.",
+    "variants": [
+      {
+        "id": "indeterminate",
+        "label": "indeterminate",
+        "props": { "variant": "indeterminate" },
+        "count": 24,
+        "capture": "dashboard-plexus-u"
+      }
+    ]
+  },
+  {
+    "id": "list",
+    "name": "List",
+    "description": "Inbox rows and a few settings lists. ListItem, not a table.",
+    "variants": [
+      {
+        "id": "list",
+        "label": "list",
+        "props": { "dense": "true" },
+        "count": 20,
+        "capture": "dashboard-my-inbox"
+      }
+    ]
+  }
+]

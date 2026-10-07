@@ -1,0 +1,6830 @@
+[
+  {
+    "slug": "dashboard",
+    "folder": "dashboard",
+    "title": "Dashboard | Plexus Pulse",
+    "path": "/dashboard",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:48:23.219Z",
+    "shot": "/shots/dashboard.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 284
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 130
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 113
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 44
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 27
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 19
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 10
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 9
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 6
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 74
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 30
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 26
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 25
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textSizeSmall",
+        "count": 22
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 21
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 20
+      },
+      {
+        "name": "MuiIconButton-sizeSmall",
+        "count": 19
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard__ask-plexi",
+    "folder": "dashboard__ask-plexi",
+    "title": "Dashboard | Plexus Pulse",
+    "path": "/dashboard",
+    "colorScheme": "light",
+    "opened": "Ask Plexi drawer",
+    "timestamp": "2026-10-06T18:04:26.364Z",
+    "shot": "/shots/dashboard__ask-plexi.png",
+    "overlayKind": "drawer",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 299
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 133
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 118
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 49
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 29
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 22
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 11
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 9
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 6
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 74
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 32
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 27
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 22
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 22
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textSizeSmall",
+        "count": 22
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard__ask-plexi. Not original source.\n<Drawer anchor=\"right\" open PaperProps={{ sx: { width: 360 } }}>\n  <Box sx={{ p: 2 }}>\n    <Typography variant=\"h6\">Ask Plexi</Typography>\n    <Typography variant=\"body2\" color=\"text.secondary\">\n      Placeholder copy. Member names stay out of the snippet.\n    </Typography>\n  </Box>\n</Drawer>"
+  },
+  {
+    "slug": "dashboard__dark",
+    "folder": "dashboard__dark",
+    "title": "Dashboard | Plexus Pulse",
+    "path": "/dashboard",
+    "colorScheme": "dark",
+    "opened": "shell",
+    "timestamp": "2026-10-06T18:22:19.689Z",
+    "shot": "/shots/dashboard__dark.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 284
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 130
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 112
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 42
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 25
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 19
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 10
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 9
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 6
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 74
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 30
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 23
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textSizeSmall",
+        "count": 22
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 21
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 20
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 19
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard__dark. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard__language",
+    "folder": "dashboard__language",
+    "title": "Dashboard | Plexus Pulse",
+    "path": "/dashboard",
+    "colorScheme": "light",
+    "opened": "Language menu",
+    "timestamp": "2026-10-06T18:03:38.837Z",
+    "shot": "/shots/dashboard__language.png",
+    "overlayKind": "menu",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 290
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 133
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 112
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 45
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 25
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 19
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 11
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 9
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 6
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 74
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 30
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 23
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textSizeSmall",
+        "count": 22
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 21
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 20
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 19
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard__language. Not original source.\n<Menu open>\n  <MenuItem>View profile</MenuItem>\n  <MenuItem>Add note</MenuItem>\n  <MenuItem>Open pleX-Ray</MenuItem>\n</Menu>"
+  },
+  {
+    "slug": "dashboard__notifications",
+    "folder": "dashboard__notifications",
+    "title": "Dashboard | Plexus Pulse",
+    "path": "/dashboard",
+    "colorScheme": "light",
+    "opened": "Notifications popover (bell)",
+    "timestamp": "2026-10-06T18:03:00.358Z",
+    "shot": "/shots/dashboard__notifications.png",
+    "overlayKind": "popover",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 305
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 191
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 133
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 83
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 46
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 21
+      },
+      {
+        "name": "MuiListItem-root",
+        "count": 20
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 19
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 11
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 74
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 50
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 44
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 41
+      },
+      {
+        "name": "MuiIconButton-sizeSmall",
+        "count": 37
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textSizeSmall",
+        "count": 22
+      },
+      {
+        "name": "MuiAvatar-circular",
+        "count": 21
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard__notifications. Not original source.\n<Paper elevation={3} sx={{ p: 2, maxWidth: 320 }}>\n  <Typography variant=\"subtitle2\">Guide</Typography>\n  <Typography variant=\"body2\" color=\"text.secondary\" sx={{ mt: 0.5 }}>\n    Notifications popover (bell)\n  </Typography>\n</Paper>"
+  },
+  {
+    "slug": "dashboard__open-plexi-glass",
+    "folder": "dashboard__open-plexi-glass",
+    "title": "Dashboard | Plexus Pulse",
+    "path": "/dashboard",
+    "colorScheme": "light",
+    "opened": "PleXi-Glass ML coaching view - Gabriel Cox",
+    "timestamp": "2026-10-06T18:05:23.882Z",
+    "shot": "/shots/dashboard__open-plexi-glass.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 326
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 158
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 141
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 51
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 34
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 33
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 28
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 11
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 9
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 6
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 74
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 56
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 34
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 34
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 34
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 31
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 28
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 28
+      },
+      {
+        "name": "MuiIconButton-sizeSmall",
+        "count": 25
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 22
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard__open-plexi-glass. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard__page-guide",
+    "folder": "dashboard__page-guide",
+    "title": "Dashboard | Plexus Pulse",
+    "path": "/dashboard",
+    "colorScheme": "light",
+    "opened": "Page guide tour (step 1 of 10 - Daily Briefing)",
+    "timestamp": "2026-10-06T18:04:47.684Z",
+    "shot": "/shots/dashboard__page-guide.png",
+    "overlayKind": "popover",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 284
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 130
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 112
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 42
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 25
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 19
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 10
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 9
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 6
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 74
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 30
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 23
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textSizeSmall",
+        "count": 22
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 21
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 20
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 19
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard__page-guide. Not original source.\n<Paper elevation={3} sx={{ p: 2, maxWidth: 320 }}>\n  <Typography variant=\"subtitle2\">Guide</Typography>\n  <Typography variant=\"body2\" color=\"text.secondary\" sx={{ mt: 0.5 }}>\n    Page guide tour (step 1 of 10 - Sample Ambassador)\n  </Typography>\n</Paper>"
+  },
+  {
+    "slug": "dashboard__search",
+    "folder": "dashboard__search",
+    "title": "Dashboard | Plexus Pulse",
+    "path": "/dashboard",
+    "colorScheme": "light",
+    "opened": "Search people dialog (Cmd+K command palette)",
+    "timestamp": "2026-10-06T18:03:21.702Z",
+    "shot": "/shots/dashboard__search.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 284
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 131
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 114
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 43
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 19
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 11
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 9
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 6
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 74
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 30
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 26
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 24
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textSizeSmall",
+        "count": 22
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 21
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 20
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 19
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard__search. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard__settings",
+    "folder": "dashboard__settings",
+    "title": "Dashboard | Plexus Pulse",
+    "path": "/dashboard",
+    "colorScheme": "light",
+    "opened": "App settings drawer",
+    "timestamp": "2026-10-06T18:04:08.183Z",
+    "shot": "/shots/dashboard__settings.png",
+    "overlayKind": "drawer",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 307
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 133
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 130
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 59
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 34
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 27
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 24
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 11
+      },
+      {
+        "name": "MuiInputLabel-root",
+        "count": 10
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 9
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 74
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 34
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 30
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 26
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 25
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-textSizeSmall",
+        "count": 22
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 21
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 21
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard__settings. Not original source.\n<Drawer anchor=\"right\" open PaperProps={{ sx: { width: 360 } }}>\n  <Box sx={{ p: 2 }}>\n    <Typography variant=\"h6\">Settings</Typography>\n    <Typography variant=\"body2\" color=\"text.secondary\">\n      Placeholder copy. Member names stay out of the snippet.\n    </Typography>\n  </Box>\n</Drawer>"
+  },
+  {
+    "slug": "dashboard-360-journey",
+    "folder": "dashboard-360-journey",
+    "title": "360 Journey | Dashboard | Plexus Pulse",
+    "path": "/dashboard/360-journey",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:49:00.606Z",
+    "shot": "/shots/dashboard-360-journey.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 448
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 186
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 44
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 28
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 14
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 7
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      },
+      {
+        "name": "MuiModal-root",
+        "count": 1
+      },
+      {
+        "name": "MuiBackdrop-root",
+        "count": 1
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 1
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 184
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 28
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 28
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 14
+      },
+      {
+        "name": "MuiButton-contained",
+        "count": 12
+      },
+      {
+        "name": "MuiButton-containedPrimary",
+        "count": 12
+      },
+      {
+        "name": "MuiButton-containedSizeSmall",
+        "count": 12
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 12
+      },
+      {
+        "name": "MuiAvatar-circular",
+        "count": 7
+      },
+      {
+        "name": "MuiAvatar-img",
+        "count": 7
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 2
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-360-journey. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-admin-contest",
+    "folder": "dashboard-admin-contest",
+    "title": "Contest Admin | Dashboard | Plexus Pulse",
+    "path": "/dashboard/admin/contest",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:49:45.481Z",
+    "shot": "/shots/dashboard-admin-contest.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 193
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 51
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 31
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 7
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 2
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 2
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 1
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 1
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      },
+      {
+        "name": "MuiModal-root",
+        "count": 1
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 44
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 3
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 3
+      },
+      {
+        "name": "MuiButton-contained",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-containedPrimary",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-sizeMedium",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-containedSizeMedium",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 2
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 2
+      },
+      {
+        "name": "MuiTypography-noWrap",
+        "count": 1
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-admin-contest. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-admin-contest__new-contest",
+    "folder": "dashboard-admin-contest__new-contest",
+    "title": "Contest Admin | Dashboard | Plexus Pulse",
+    "path": "/dashboard/admin/contest",
+    "colorScheme": "light",
+    "opened": "New contest dialog",
+    "timestamp": "2026-10-06T18:17:16.871Z",
+    "shot": "/shots/dashboard-admin-contest__new-contest.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 193
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 52
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 33
+      },
+      {
+        "name": "MuiInputLabel-root",
+        "count": 10
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 9
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiFormControl-root",
+        "count": 5
+      },
+      {
+        "name": "MuiTextField-root",
+        "count": 5
+      },
+      {
+        "name": "MuiFormLabel-root",
+        "count": 5
+      },
+      {
+        "name": "MuiInputBase-root",
+        "count": 5
+      },
+      {
+        "name": "MuiOutlinedInput-root",
+        "count": 5
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 44
+      },
+      {
+        "name": "MuiInputLabel-formControl",
+        "count": 10
+      },
+      {
+        "name": "MuiInputLabel-animated",
+        "count": 10
+      },
+      {
+        "name": "MuiInputLabel-outlined",
+        "count": 10
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 6
+      },
+      {
+        "name": "MuiInputLabel-shrink",
+        "count": 6
+      },
+      {
+        "name": "MuiFormControl-fullWidth",
+        "count": 5
+      },
+      {
+        "name": "MuiFormLabel-colorPrimary",
+        "count": 5
+      },
+      {
+        "name": "MuiInputBase-colorPrimary",
+        "count": 5
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-admin-contest__new-contest. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-contest",
+    "folder": "dashboard-contest",
+    "title": "Contest | Dashboard | Plexus Pulse",
+    "path": "/dashboard/contest",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:49:40.796Z",
+    "shot": "/shots/dashboard-contest.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiTableCell-root",
+        "count": 338
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 282
+      },
+      {
+        "name": "MuiBox-root",
+        "count": 225
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 133
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 52
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 51
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 14
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 11
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 6
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      },
+      {
+        "name": "MuiInputBase-root",
+        "count": 4
+      },
+      {
+        "name": "MuiOutlinedInput-root",
+        "count": 4
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 338
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 325
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 111
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 92
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 72
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 51
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 51
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 51
+      },
+      {
+        "name": "MuiTableRow-hover",
+        "count": 50
+      },
+      {
+        "name": "MuiChip-filled",
+        "count": 26
+      },
+      {
+        "name": "MuiChip-colorSuccess",
+        "count": 26
+      },
+      {
+        "name": "MuiChip-filledSuccess",
+        "count": 26
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-contest. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-contest__dark",
+    "folder": "dashboard-contest__dark",
+    "title": "Contest | Dashboard | Plexus Pulse",
+    "path": "/dashboard/contest",
+    "colorScheme": "dark",
+    "opened": "shell",
+    "timestamp": "2026-10-06T18:23:18.032Z",
+    "shot": "/shots/dashboard-contest__dark.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiTableCell-root",
+        "count": 338
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 282
+      },
+      {
+        "name": "MuiBox-root",
+        "count": 225
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 133
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 52
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 51
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 14
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 11
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 6
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      },
+      {
+        "name": "MuiInputBase-root",
+        "count": 4
+      },
+      {
+        "name": "MuiOutlinedInput-root",
+        "count": 4
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 338
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 325
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 111
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 92
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 72
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 51
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 51
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 51
+      },
+      {
+        "name": "MuiTableRow-hover",
+        "count": 50
+      },
+      {
+        "name": "MuiChip-filled",
+        "count": 26
+      },
+      {
+        "name": "MuiChip-colorSuccess",
+        "count": 26
+      },
+      {
+        "name": "MuiChip-filledSuccess",
+        "count": 26
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-contest__dark. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-contest__plex-ray",
+    "folder": "dashboard-contest__plex-ray",
+    "title": "Contest | Dashboard | Plexus Pulse",
+    "path": "/dashboard/contest",
+    "colorScheme": "light",
+    "opened": "pleX-Ray Quick View  Grayson Parker",
+    "timestamp": "2026-10-06T17:59:46.624Z",
+    "shot": "/shots/dashboard-contest__plex-ray.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiTableCell-root",
+        "count": 338
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 317
+      },
+      {
+        "name": "MuiBox-root",
+        "count": 258
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 149
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 52
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 31
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 22
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 18
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 7
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      },
+      {
+        "name": "MuiLinearProgress-root",
+        "count": 4
+      },
+      {
+        "name": "MuiInputBase-root",
+        "count": 4
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 338
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 325
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 117
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 97
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 93
+      },
+      {
+        "name": "MuiTableRow-hover",
+        "count": 50
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 31
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 31
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 31
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 27
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 27
+      },
+      {
+        "name": "MuiChip-outlinedSecondary",
+        "count": 27
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-contest__plex-ray. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-contest__plex-ray__dark",
+    "folder": "dashboard-contest__plex-ray__dark",
+    "title": "Contest | Dashboard | Plexus Pulse",
+    "path": "/dashboard/contest",
+    "colorScheme": "dark",
+    "opened": "pleX-Ray Quick View — Grayson Parker",
+    "timestamp": "2026-10-06T18:24:10.391Z",
+    "shot": "/shots/dashboard-contest__plex-ray__dark.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 258
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 242
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 146
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 125
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 29
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 28
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 22
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 18
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 7
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      },
+      {
+        "name": "MuiLinearProgress-root",
+        "count": 4
+      },
+      {
+        "name": "MuiInputBase-root",
+        "count": 4
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 146
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 133
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 93
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 70
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 69
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 29
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 29
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 29
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 27
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 27
+      },
+      {
+        "name": "MuiChip-outlinedSecondary",
+        "count": 27
+      },
+      {
+        "name": "MuiTableRow-hover",
+        "count": 26
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-contest__plex-ray__dark. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-contest__what-is-this",
+    "folder": "dashboard-contest__what-is-this",
+    "title": "Contest | Dashboard | Plexus Pulse",
+    "path": "/dashboard/contest",
+    "colorScheme": "light",
+    "opened": "What is this? section guide popover (At a Glance)",
+    "timestamp": "2026-10-06T18:06:08.657Z",
+    "shot": "/shots/dashboard-contest__what-is-this.png",
+    "overlayKind": "popover",
+    "classes": [
+      {
+        "name": "MuiTableCell-root",
+        "count": 338
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 282
+      },
+      {
+        "name": "MuiBox-root",
+        "count": 225
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 133
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 52
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 51
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 14
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 11
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 6
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      },
+      {
+        "name": "MuiInputBase-root",
+        "count": 4
+      },
+      {
+        "name": "MuiOutlinedInput-root",
+        "count": 4
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 338
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 325
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 111
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 92
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 72
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 51
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 51
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 51
+      },
+      {
+        "name": "MuiTableRow-hover",
+        "count": 50
+      },
+      {
+        "name": "MuiChip-filled",
+        "count": 26
+      },
+      {
+        "name": "MuiChip-colorSuccess",
+        "count": 26
+      },
+      {
+        "name": "MuiChip-filledSuccess",
+        "count": 26
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-contest__what-is-this. Not original source.\n<Paper elevation={3} sx={{ p: 2, maxWidth: 320 }}>\n  <Typography variant=\"subtitle2\">Guide</Typography>\n  <Typography variant=\"body2\" color=\"text.secondary\" sx={{ mt: 0.5 }}>\n    What is this? section guide popover (At a Glance)\n  </Typography>\n</Paper>"
+  },
+  {
+    "slug": "dashboard-crm",
+    "folder": "dashboard-crm",
+    "title": "CRM | Dashboard | Plexus Pulse",
+    "path": "/dashboard/crm",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:48:51.263Z",
+    "shot": "/shots/dashboard-crm.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 228
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 100
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 87
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 62
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 46
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 33
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 21
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 18
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 6
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 5
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 87
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 84
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 80
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 28
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 20
+      },
+      {
+        "name": "MuiButton-outlinedPrimary",
+        "count": 20
+      },
+      {
+        "name": "MuiButton-outlinedSizeSmall",
+        "count": 20
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-crm. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-crm__actions",
+    "folder": "dashboard-crm__actions",
+    "title": "CRM | Dashboard | Plexus Pulse",
+    "path": "/dashboard/crm",
+    "colorScheme": "light",
+    "opened": "Row Actions menu (Abigail Scott)",
+    "timestamp": "2026-10-06T18:00:36.764Z",
+    "shot": "/shots/dashboard-crm__actions.png",
+    "overlayKind": "menu",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 235
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 100
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 87
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 63
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 46
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 33
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 21
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 18
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 7
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 5
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 87
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 84
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 80
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 28
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 20
+      },
+      {
+        "name": "MuiButton-outlinedPrimary",
+        "count": 20
+      },
+      {
+        "name": "MuiButton-outlinedSizeSmall",
+        "count": 20
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-crm__actions. Not original source.\n<Menu open>\n  <MenuItem>View profile</MenuItem>\n  <MenuItem>Add note</MenuItem>\n  <MenuItem>Open pleX-Ray</MenuItem>\n</Menu>"
+  },
+  {
+    "slug": "dashboard-crm__add-note",
+    "folder": "dashboard-crm__add-note",
+    "title": "CRM | Dashboard | Plexus Pulse",
+    "path": "/dashboard/crm",
+    "colorScheme": "light",
+    "opened": "Row expand - inline Notes panel (Abigail Scott, Add note)",
+    "timestamp": "2026-10-06T18:07:04.288Z",
+    "shot": "/shots/dashboard-crm__add-note.png",
+    "overlayKind": "overlay",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 232
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 102
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 87
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 63
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 46
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 33
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 21
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 18
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 6
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 5
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 87
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 85
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 80
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 28
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 20
+      },
+      {
+        "name": "MuiButton-outlinedPrimary",
+        "count": 20
+      },
+      {
+        "name": "MuiButton-outlinedSizeSmall",
+        "count": 20
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-crm__add-note. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-crm__all-views",
+    "folder": "dashboard-crm__all-views",
+    "title": "CRM | Dashboard | Plexus Pulse",
+    "path": "/dashboard/crm",
+    "colorScheme": "light",
+    "opened": "Saved views popover (All views)",
+    "timestamp": "2026-10-06T18:06:30.390Z",
+    "shot": "/shots/dashboard-crm__all-views.png",
+    "overlayKind": "popover",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 249
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 146
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 87
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 73
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 62
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 33
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 31
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 28
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 21
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 7
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 5
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 130
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 87
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 80
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 33
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 29
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 28
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 28
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 24
+      },
+      {
+        "name": "MuiIconButton-sizeSmall",
+        "count": 23
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 20
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-crm__all-views. Not original source.\n<Paper elevation={3} sx={{ p: 2, maxWidth: 320 }}>\n  <Typography variant=\"subtitle2\">Guide</Typography>\n  <Typography variant=\"body2\" color=\"text.secondary\" sx={{ mt: 0.5 }}>\n    Saved views popover (All views)\n  </Typography>\n</Paper>"
+  },
+  {
+    "slug": "dashboard-crm__dark",
+    "folder": "dashboard-crm__dark",
+    "title": "CRM | Dashboard | Plexus Pulse",
+    "path": "/dashboard/crm",
+    "colorScheme": "dark",
+    "opened": "shell",
+    "timestamp": "2026-10-06T18:22:52.918Z",
+    "shot": "/shots/dashboard-crm__dark.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 228
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 100
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 87
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 62
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 46
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 33
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 26
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 21
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 18
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 6
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 5
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 87
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 84
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 80
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 28
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 20
+      },
+      {
+        "name": "MuiButton-outlinedPrimary",
+        "count": 20
+      },
+      {
+        "name": "MuiButton-outlinedSizeSmall",
+        "count": 20
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-crm__dark. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-crm__plex-ray",
+    "folder": "dashboard-crm__plex-ray",
+    "title": "CRM | Dashboard | Plexus Pulse",
+    "path": "/dashboard/crm",
+    "colorScheme": "light",
+    "opened": "pleX-Ray Quick View - Abigail Scott",
+    "timestamp": "2026-10-06T18:01:27.090Z",
+    "shot": "/shots/dashboard-crm__plex-ray.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 248
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 115
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 87
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 72
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 51
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 35
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 28
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 22
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 21
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 7
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 5
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 87
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 84
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 80
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 35
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 35
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 35
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 30
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 28
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-outlinedPrimary",
+        "count": 22
+      },
+      {
+        "name": "MuiButton-outlinedSizeSmall",
+        "count": 22
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-crm__plex-ray. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-crm-5423",
+    "folder": "dashboard-crm-5423",
+    "title": "Member Details | CRM | Dashboard | Plexus Pulse",
+    "path": "/dashboard/crm/5423",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T18:02:11.440Z",
+    "shot": "/shots/dashboard-crm-5423.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 274
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 157
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 133
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 71
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 61
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 33
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 18
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 14
+      },
+      {
+        "name": "MuiSvgIcon-root",
+        "count": 14
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 11
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 10
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 133
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 116
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 70
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 61
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 61
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 61
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 50
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 36
+      },
+      {
+        "name": "MuiChip-outlinedSecondary",
+        "count": 36
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 32
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 26
+      },
+      {
+        "name": "MuiTableRow-hover",
+        "count": 20
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-crm-5423. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-crm-5423__ask-plexi-about-the-plex-ray-panel",
+    "folder": "dashboard-crm-5423__ask-plexi-about-the-plex-ray-panel",
+    "title": "Member Details | CRM | Dashboard | Plexus Pulse",
+    "path": "/dashboard/crm/5423",
+    "colorScheme": "light",
+    "opened": "Ask Plexi drawer - pleX-Ray for Abigail Scott",
+    "timestamp": "2026-10-06T18:02:34.924Z",
+    "shot": "/shots/dashboard-crm-5423__ask-plexi-about-the-plex-ray-panel.png",
+    "overlayKind": "drawer",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 289
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 161
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 133
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 77
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 63
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 39
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 18
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 14
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 14
+      },
+      {
+        "name": "MuiSvgIcon-root",
+        "count": 14
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 12
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 133
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 116
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 70
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 63
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 63
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 63
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 50
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 38
+      },
+      {
+        "name": "MuiChip-outlinedSecondary",
+        "count": 36
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 32
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 28
+      },
+      {
+        "name": "MuiTableRow-hover",
+        "count": 20
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-crm-5423__ask-plexi-about-the-plex-ray-panel. Not original source.\n<Drawer anchor=\"right\" open PaperProps={{ sx: { width: 360 } }}>\n  <Box sx={{ p: 2 }}>\n    <Typography variant=\"h6\">Ask Plexi</Typography>\n    <Typography variant=\"body2\" color=\"text.secondary\">\n      Placeholder copy. Member names stay out of the snippet.\n    </Typography>\n  </Box>\n</Drawer>"
+  },
+  {
+    "slug": "dashboard-genealogy",
+    "folder": "dashboard-genealogy",
+    "title": "Genealogy | Dashboard | Plexus Pulse",
+    "path": "/dashboard/genealogy",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:49:05.291Z",
+    "shot": "/shots/dashboard-genealogy.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 598
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 490
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 330
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 91
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 86
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 80
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiToggleButton-root",
+        "count": 2
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 2
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 1
+      },
+      {
+        "name": "MuiToggleButtonGroup-root",
+        "count": 1
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 1
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 484
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 86
+      },
+      {
+        "name": "MuiIconButton-sizeSmall",
+        "count": 80
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 80
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 80
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 80
+      },
+      {
+        "name": "MuiChip-filled",
+        "count": 50
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 50
+      },
+      {
+        "name": "MuiChip-colorPrimary",
+        "count": 30
+      },
+      {
+        "name": "MuiChip-filledPrimary",
+        "count": 30
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 30
+      },
+      {
+        "name": "MuiChip-outlinedSecondary",
+        "count": 30
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-genealogy. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-genealogy__plex-ray",
+    "folder": "dashboard-genealogy__plex-ray",
+    "title": "Genealogy | Dashboard | Plexus Pulse",
+    "path": "/dashboard/genealogy",
+    "colorScheme": "light",
+    "opened": "pleX-Ray Quick View - Alexander Smith",
+    "timestamp": "2026-10-06T18:13:39.394Z",
+    "shot": "/shots/dashboard-genealogy__plex-ray.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 638
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 527
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 350
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 100
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 94
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 84
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 8
+      },
+      {
+        "name": "MuiLinearProgress-root",
+        "count": 5
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 3
+      },
+      {
+        "name": "MuiToggleButton-root",
+        "count": 2
+      },
+      {
+        "name": "MuiModal-root",
+        "count": 2
+      },
+      {
+        "name": "MuiBackdrop-root",
+        "count": 2
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 484
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 94
+      },
+      {
+        "name": "MuiIconButton-sizeSmall",
+        "count": 88
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 84
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 84
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 84
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 53
+      },
+      {
+        "name": "MuiChip-filled",
+        "count": 51
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-outlinedSecondary",
+        "count": 33
+      },
+      {
+        "name": "MuiChip-colorPrimary",
+        "count": 31
+      },
+      {
+        "name": "MuiChip-filledPrimary",
+        "count": 31
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-genealogy__plex-ray. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-geography",
+    "folder": "dashboard-geography",
+    "title": "GeoPulse | Dashboard | Plexus Pulse",
+    "path": "/dashboard/geography",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:48:41.927Z",
+    "shot": "/shots/dashboard-geography.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 254
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 52
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 32
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiInputLabel-root",
+        "count": 4
+      },
+      {
+        "name": "MuiFormControl-root",
+        "count": 2
+      },
+      {
+        "name": "MuiFormLabel-root",
+        "count": 2
+      },
+      {
+        "name": "MuiInputBase-root",
+        "count": 2
+      },
+      {
+        "name": "MuiOutlinedInput-root",
+        "count": 2
+      },
+      {
+        "name": "MuiSelect-root",
+        "count": 2
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 2
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 43
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 4
+      },
+      {
+        "name": "MuiInputLabel-formControl",
+        "count": 4
+      },
+      {
+        "name": "MuiInputLabel-animated",
+        "count": 4
+      },
+      {
+        "name": "MuiInputLabel-shrink",
+        "count": 4
+      },
+      {
+        "name": "MuiInputLabel-sizeSmall",
+        "count": 4
+      },
+      {
+        "name": "MuiInputLabel-outlined",
+        "count": 4
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 3
+      },
+      {
+        "name": "MuiFormLabel-colorPrimary",
+        "count": 2
+      },
+      {
+        "name": "MuiFormLabel-filled",
+        "count": 2
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-geography. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-geography__new-enrollments",
+    "folder": "dashboard-geography__new-enrollments",
+    "title": "GeoPulse | Dashboard | Plexus Pulse",
+    "path": "/dashboard/geography",
+    "colorScheme": "light",
+    "opened": "Measure select menu",
+    "timestamp": "2026-10-06T18:15:18.438Z",
+    "shot": "/shots/dashboard-geography__new-enrollments.png",
+    "overlayKind": "menu",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 254
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 52
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 32
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 12
+      },
+      {
+        "name": "MuiMenuItem-root",
+        "count": 12
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiInputLabel-root",
+        "count": 4
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 3
+      },
+      {
+        "name": "MuiFormControl-root",
+        "count": 2
+      },
+      {
+        "name": "MuiFormLabel-root",
+        "count": 2
+      },
+      {
+        "name": "MuiInputBase-root",
+        "count": 2
+      },
+      {
+        "name": "MuiOutlinedInput-root",
+        "count": 2
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 43
+      },
+      {
+        "name": "MuiMenuItem-gutters",
+        "count": 12
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 4
+      },
+      {
+        "name": "MuiInputLabel-formControl",
+        "count": 4
+      },
+      {
+        "name": "MuiInputLabel-animated",
+        "count": 4
+      },
+      {
+        "name": "MuiInputLabel-shrink",
+        "count": 4
+      },
+      {
+        "name": "MuiInputLabel-sizeSmall",
+        "count": 4
+      },
+      {
+        "name": "MuiInputLabel-outlined",
+        "count": 4
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 3
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 3
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-geography__new-enrollments. Not original source.\n<Menu open>\n  <MenuItem>View profile</MenuItem>\n  <MenuItem>Add note</MenuItem>\n  <MenuItem>Open pleX-Ray</MenuItem>\n</Menu>"
+  },
+  {
+    "slug": "dashboard-monthly-kickoff",
+    "folder": "dashboard-monthly-kickoff",
+    "title": "Monthly Kickoff | Dashboard | Plexus Pulse",
+    "path": "/dashboard/monthly-kickoff",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:49:52.906Z",
+    "shot": "/shots/dashboard-monthly-kickoff.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 310
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 132
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 28
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 16
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 7
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiLink-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      },
+      {
+        "name": "MuiModal-root",
+        "count": 1
+      },
+      {
+        "name": "MuiBackdrop-root",
+        "count": 1
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 1
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 129
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 12
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 10
+      },
+      {
+        "name": "MuiButton-contained",
+        "count": 8
+      },
+      {
+        "name": "MuiButton-containedPrimary",
+        "count": 8
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 8
+      },
+      {
+        "name": "MuiAvatar-circular",
+        "count": 7
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiButton-containedSizeSmall",
+        "count": 6
+      },
+      {
+        "name": "MuiButton-outlinedInherit",
+        "count": 6
+      },
+      {
+        "name": "MuiButton-outlinedSizeSmall",
+        "count": 6
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-monthly-kickoff. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-my-account",
+    "folder": "dashboard-my-account",
+    "title": "My Account | Dashboard | Plexus Pulse",
+    "path": "/dashboard/my-account",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:49:33.370Z",
+    "shot": "/shots/dashboard-my-account.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 252
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 76
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 35
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 10
+      },
+      {
+        "name": "MuiInputLabel-root",
+        "count": 10
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 7
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 5
+      },
+      {
+        "name": "MuiFormControl-root",
+        "count": 5
+      },
+      {
+        "name": "MuiFormLabel-root",
+        "count": 5
+      },
+      {
+        "name": "MuiInputBase-root",
+        "count": 5
+      },
+      {
+        "name": "MuiOutlinedInput-root",
+        "count": 5
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 50
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 13
+      },
+      {
+        "name": "MuiTypography-subtitle2",
+        "count": 10
+      },
+      {
+        "name": "MuiInputLabel-formControl",
+        "count": 10
+      },
+      {
+        "name": "MuiInputLabel-animated",
+        "count": 10
+      },
+      {
+        "name": "MuiInputLabel-outlined",
+        "count": 10
+      },
+      {
+        "name": "MuiInputLabel-shrink",
+        "count": 8
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 7
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiAvatar-circular",
+        "count": 5
+      },
+      {
+        "name": "MuiFormLabel-colorPrimary",
+        "count": 5
+      },
+      {
+        "name": "MuiInputBase-colorPrimary",
+        "count": 5
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-my-account. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-my-account__add-to-a-subscription",
+    "folder": "dashboard-my-account__add-to-a-subscription",
+    "title": "My Account | Dashboard | Plexus Pulse",
+    "path": "/dashboard/my-account",
+    "colorScheme": "light",
+    "opened": "Add this month special dialog",
+    "timestamp": "2026-10-06T18:16:44.169Z",
+    "shot": "/shots/dashboard-my-account__add-to-a-subscription.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 275
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 87
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 37
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 13
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 10
+      },
+      {
+        "name": "MuiInputLabel-root",
+        "count": 10
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 8
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 5
+      },
+      {
+        "name": "MuiFormControl-root",
+        "count": 5
+      },
+      {
+        "name": "MuiFormLabel-root",
+        "count": 5
+      },
+      {
+        "name": "MuiInputBase-root",
+        "count": 5
+      },
+      {
+        "name": "MuiOutlinedInput-root",
+        "count": 5
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 61
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 13
+      },
+      {
+        "name": "MuiTypography-subtitle2",
+        "count": 10
+      },
+      {
+        "name": "MuiInputLabel-formControl",
+        "count": 10
+      },
+      {
+        "name": "MuiInputLabel-animated",
+        "count": 10
+      },
+      {
+        "name": "MuiInputLabel-outlined",
+        "count": 10
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 8
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 8
+      },
+      {
+        "name": "MuiInputLabel-shrink",
+        "count": 8
+      },
+      {
+        "name": "MuiButton-sizeMedium",
+        "count": 8
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiButton-contained",
+        "count": 6
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-my-account__add-to-a-subscription. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-my-business",
+    "folder": "dashboard-my-business",
+    "title": "My Business | Dashboard | Plexus Pulse",
+    "path": "/dashboard/my-business",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:48:37.251Z",
+    "shot": "/shots/dashboard-my-business.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiTypography-root",
+        "count": 585
+      },
+      {
+        "name": "MuiBox-root",
+        "count": 581
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 308
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 285
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 75
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 73
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 72
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 55
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 44
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 40
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 27
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 24
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 355
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 285
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 253
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 93
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 74
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 74
+      },
+      {
+        "name": "MuiPaper-elevation1",
+        "count": 73
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 71
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 55
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 55
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 55
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 48
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-my-business. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-my-business__last-6-months",
+    "folder": "dashboard-my-business__last-6-months",
+    "title": "My Business | Dashboard | Plexus Pulse",
+    "path": "/dashboard/my-business",
+    "colorScheme": "light",
+    "opened": "Rank Trends period select menu (Last 6 Months)",
+    "timestamp": "2026-10-06T18:10:25.971Z",
+    "shot": "/shots/dashboard-my-business__last-6-months.png",
+    "overlayKind": "menu",
+    "classes": [
+      {
+        "name": "MuiTypography-root",
+        "count": 585
+      },
+      {
+        "name": "MuiBox-root",
+        "count": 581
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 308
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 285
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 77
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 76
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 72
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 55
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 44
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 40
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 27
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 24
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 355
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 285
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 253
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 93
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 75
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 75
+      },
+      {
+        "name": "MuiPaper-elevation1",
+        "count": 73
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 71
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 55
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 55
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 55
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 48
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-my-business__last-6-months. Not original source.\n<Menu open>\n  <MenuItem>View profile</MenuItem>\n  <MenuItem>Add note</MenuItem>\n  <MenuItem>Open pleX-Ray</MenuItem>\n</Menu>"
+  },
+  {
+    "slug": "dashboard-my-business__open-plexi-glass",
+    "folder": "dashboard-my-business__open-plexi-glass",
+    "title": "My Business | Dashboard | Plexus Pulse",
+    "path": "/dashboard/my-business",
+    "colorScheme": "light",
+    "opened": "PleXi-Glass ML coaching view - Abigail Johnson",
+    "timestamp": "2026-10-06T18:10:01.700Z",
+    "shot": "/shots/dashboard-my-business__open-plexi-glass.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 624
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 617
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 339
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 285
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 82
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 76
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 73
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 72
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 44
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 42
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 35
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 24
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 355
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 285
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 253
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 101
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 93
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 75
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 75
+      },
+      {
+        "name": "MuiPaper-elevation1",
+        "count": 73
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 73
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 73
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 73
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 65
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-my-business__open-plexi-glass. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-my-inbox",
+    "folder": "dashboard-my-inbox",
+    "title": "My Inbox | Dashboard | Plexus Pulse",
+    "path": "/dashboard/my-inbox",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:48:55.931Z",
+    "shot": "/shots/dashboard-my-inbox.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 198
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 48
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 28
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 9
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 8
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 2
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 1
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      },
+      {
+        "name": "MuiModal-root",
+        "count": 1
+      },
+      {
+        "name": "MuiBackdrop-root",
+        "count": 1
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 44
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 8
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 2
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-contained",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-containedPrimary",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-containedSizeSmall",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 2
+      },
+      {
+        "name": "MuiIconButton-sizeSmall",
+        "count": 2
+      },
+      {
+        "name": "MuiTypography-noWrap",
+        "count": 1
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-my-inbox. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-my-inbox__new-chat",
+    "folder": "dashboard-my-inbox__new-chat",
+    "title": "My Inbox | Dashboard | Plexus Pulse",
+    "path": "/dashboard/my-inbox",
+    "colorScheme": "light",
+    "opened": "New chat dialog",
+    "timestamp": "2026-10-06T18:12:35.510Z",
+    "shot": "/shots/dashboard-my-inbox__new-chat.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 199
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 50
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 29
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 11
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 8
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 3
+      },
+      {
+        "name": "MuiModal-root",
+        "count": 2
+      },
+      {
+        "name": "MuiBackdrop-root",
+        "count": 2
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 1
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 44
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 8
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiButton-contained",
+        "count": 4
+      },
+      {
+        "name": "MuiButton-containedPrimary",
+        "count": 4
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 4
+      },
+      {
+        "name": "MuiButton-sizeMedium",
+        "count": 4
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 3
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 3
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-containedSizeSmall",
+        "count": 2
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-my-inbox__new-chat. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-my-inbox__open-message-actions-menu",
+    "folder": "dashboard-my-inbox__open-message-actions-menu",
+    "title": "My Inbox | Dashboard | Plexus Pulse",
+    "path": "/dashboard/my-inbox",
+    "colorScheme": "light",
+    "opened": "Message actions menu",
+    "timestamp": "2026-10-06T18:13:04.996Z",
+    "shot": "/shots/dashboard-my-inbox__open-message-actions-menu.png",
+    "overlayKind": "menu",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 198
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 48
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 28
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 9
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 8
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 2
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 1
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      },
+      {
+        "name": "MuiModal-root",
+        "count": 1
+      },
+      {
+        "name": "MuiBackdrop-root",
+        "count": 1
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 44
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 8
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 2
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-contained",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-containedPrimary",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-containedSizeSmall",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 2
+      },
+      {
+        "name": "MuiIconButton-sizeSmall",
+        "count": 2
+      },
+      {
+        "name": "MuiTypography-noWrap",
+        "count": 1
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-my-inbox__open-message-actions-menu. Not original source.\n<Menu open>\n  <MenuItem>View profile</MenuItem>\n  <MenuItem>Add note</MenuItem>\n  <MenuItem>Open pleX-Ray</MenuItem>\n</Menu>"
+  },
+  {
+    "slug": "dashboard-playbook",
+    "folder": "dashboard-playbook",
+    "title": "Playbook | Dashboard | Plexus Pulse",
+    "path": "/dashboard/playbook",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:48:27.915Z",
+    "shot": "/shots/dashboard-playbook.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 247
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 86
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 66
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 59
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 48
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 36
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 11
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 10
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 8
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 4
+      },
+      {
+        "name": "MuiSvgIcon-root",
+        "count": 4
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 3
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 82
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 66
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 60
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 48
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 48
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-textSizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-outlinedPrimary",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-outlinedSizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-icon",
+        "count": 12
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-playbook. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-playbook__actions",
+    "folder": "dashboard-playbook__actions",
+    "title": "Playbook | Dashboard | Plexus Pulse",
+    "path": "/dashboard/playbook",
+    "colorScheme": "light",
+    "opened": "Follow-up Actions menu (Carter Hernandez)",
+    "timestamp": "2026-10-06T18:08:59.039Z",
+    "shot": "/shots/dashboard-playbook__actions.png",
+    "overlayKind": "menu",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 252
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 86
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 66
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 60
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 48
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 36
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 11
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 10
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 8
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 4
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 4
+      },
+      {
+        "name": "MuiSvgIcon-root",
+        "count": 4
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 82
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 66
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 60
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 48
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 48
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-textSizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-outlinedPrimary",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-outlinedSizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-icon",
+        "count": 12
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-playbook__actions. Not original source.\n<Menu open>\n  <MenuItem>View profile</MenuItem>\n  <MenuItem>Add note</MenuItem>\n  <MenuItem>Open pleX-Ray</MenuItem>\n</Menu>"
+  },
+  {
+    "slug": "dashboard-playbook__plex-ray",
+    "folder": "dashboard-playbook__plex-ray",
+    "title": "Playbook | Dashboard | Plexus Pulse",
+    "path": "/dashboard/playbook",
+    "colorScheme": "light",
+    "opened": "pleX-Ray Quick View - Wyatt Cox",
+    "timestamp": "2026-10-06T18:09:21.003Z",
+    "shot": "/shots/dashboard-playbook__plex-ray.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 264
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 99
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 68
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 66
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 50
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 41
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 12
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 12
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 11
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 4
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 4
+      },
+      {
+        "name": "MuiSvgIcon-root",
+        "count": 4
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 82
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 66
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 60
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 50
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 50
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-outlinedPrimary",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-outlinedSizeSmall",
+        "count": 26
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-textSizeSmall",
+        "count": 24
+      },
+      {
+        "name": "MuiButton-icon",
+        "count": 13
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-playbook__plex-ray. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-plexus-hub",
+    "folder": "dashboard-plexus-hub",
+    "title": "Plexus Hub | Dashboard | Plexus Pulse",
+    "path": "/dashboard/plexus-hub",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:49:28.697Z",
+    "shot": "/shots/dashboard-plexus-hub.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 243
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 88
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 61
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 13
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 12
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 12
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 12
+      },
+      {
+        "name": "MuiGrid-root",
+        "count": 12
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 11
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 8
+      },
+      {
+        "name": "MuiCardContent-root",
+        "count": 8
+      },
+      {
+        "name": "MuiCardMedia-root",
+        "count": 7
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 48
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 14
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 13
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-elevation1",
+        "count": 12
+      },
+      {
+        "name": "MuiGrid-direction-xs-row",
+        "count": 12
+      },
+      {
+        "name": "MuiChip-filled",
+        "count": 11
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 11
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 11
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 11
+      },
+      {
+        "name": "MuiGrid-grid-xs-12",
+        "count": 10
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-plexus-hub. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-plexus-hub__alert",
+    "folder": "dashboard-plexus-hub__alert",
+    "title": "Plexus Hub | Dashboard | Plexus Pulse",
+    "path": "/dashboard/plexus-hub",
+    "colorScheme": "light",
+    "opened": "Hub alert dialog - ProBio 5 Label Update",
+    "timestamp": "2026-10-06T18:07:36.257Z",
+    "shot": "/shots/dashboard-plexus-hub__alert.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 243
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 92
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 63
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 14
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 13
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 12
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 12
+      },
+      {
+        "name": "MuiGrid-root",
+        "count": 12
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 12
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 9
+      },
+      {
+        "name": "MuiCardContent-root",
+        "count": 8
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 7
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 49
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 14
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 14
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 13
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 12
+      },
+      {
+        "name": "MuiPaper-elevation1",
+        "count": 12
+      },
+      {
+        "name": "MuiGrid-direction-xs-row",
+        "count": 12
+      },
+      {
+        "name": "MuiChip-filled",
+        "count": 12
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 12
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 12
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 12
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 11
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-plexus-hub__alert. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-plexus-hub-HUB-001",
+    "folder": "dashboard-plexus-hub-HUB-001",
+    "title": "Article | Plexus Hub | Dashboard | Plexus Pulse",
+    "path": "/dashboard/plexus-hub/HUB-001",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:50:03.333Z",
+    "shot": "/shots/dashboard-plexus-hub-HUB-001.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 201
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 61
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 33
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 4
+      },
+      {
+        "name": "MuiLink-root",
+        "count": 2
+      },
+      {
+        "name": "MuiBreadcrumbs-root",
+        "count": 1
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 1
+      },
+      {
+        "name": "MuiContainer-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 44
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiTypography-subtitle2",
+        "count": 6
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 5
+      },
+      {
+        "name": "MuiAvatar-circular",
+        "count": 4
+      },
+      {
+        "name": "MuiAvatar-img",
+        "count": 4
+      },
+      {
+        "name": "MuiBreadcrumbs-li",
+        "count": 3
+      },
+      {
+        "name": "MuiLink-underlineHover",
+        "count": 2
+      },
+      {
+        "name": "MuiBreadcrumbs-separator",
+        "count": 2
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 2
+      },
+      {
+        "name": "MuiTypography-noWrap",
+        "count": 1
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-plexus-hub-HUB-001. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-plexus-hub-HUB-002",
+    "folder": "dashboard-plexus-hub-HUB-002",
+    "title": "Article | Plexus Hub | Dashboard | Plexus Pulse",
+    "path": "/dashboard/plexus-hub/HUB-002",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:50:11.021Z",
+    "shot": "/shots/dashboard-plexus-hub-HUB-002.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 199
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 58
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 31
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 3
+      },
+      {
+        "name": "MuiLink-root",
+        "count": 2
+      },
+      {
+        "name": "MuiBreadcrumbs-root",
+        "count": 1
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 1
+      },
+      {
+        "name": "MuiContainer-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDivider-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 44
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiTypography-subtitle2",
+        "count": 5
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 4
+      },
+      {
+        "name": "MuiAvatar-circular",
+        "count": 3
+      },
+      {
+        "name": "MuiAvatar-img",
+        "count": 3
+      },
+      {
+        "name": "MuiBreadcrumbs-li",
+        "count": 3
+      },
+      {
+        "name": "MuiLink-underlineHover",
+        "count": 2
+      },
+      {
+        "name": "MuiBreadcrumbs-separator",
+        "count": 2
+      },
+      {
+        "name": "MuiTypography-noWrap",
+        "count": 1
+      },
+      {
+        "name": "MuiTypography-h4",
+        "count": 1
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-plexus-hub-HUB-002. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-plexus-hub-HUB-011",
+    "folder": "dashboard-plexus-hub-HUB-011",
+    "title": "Article | Plexus Hub | Dashboard | Plexus Pulse",
+    "path": "/dashboard/plexus-hub/HUB-011",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:50:18.458Z",
+    "shot": "/shots/dashboard-plexus-hub-HUB-011.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 197
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 54
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 28
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 2
+      },
+      {
+        "name": "MuiLink-root",
+        "count": 2
+      },
+      {
+        "name": "MuiBreadcrumbs-root",
+        "count": 1
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 1
+      },
+      {
+        "name": "MuiContainer-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      },
+      {
+        "name": "MuiModal-root",
+        "count": 1
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 44
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiTypography-subtitle2",
+        "count": 4
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 3
+      },
+      {
+        "name": "MuiBreadcrumbs-li",
+        "count": 3
+      },
+      {
+        "name": "MuiAvatar-circular",
+        "count": 2
+      },
+      {
+        "name": "MuiAvatar-img",
+        "count": 2
+      },
+      {
+        "name": "MuiLink-underlineHover",
+        "count": 2
+      },
+      {
+        "name": "MuiBreadcrumbs-separator",
+        "count": 2
+      },
+      {
+        "name": "MuiTypography-noWrap",
+        "count": 1
+      },
+      {
+        "name": "MuiTypography-h4",
+        "count": 1
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-plexus-hub-HUB-011. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-plexus-live",
+    "folder": "dashboard-plexus-live",
+    "title": "Plexus Live | Dashboard | Plexus Pulse",
+    "path": "/dashboard/plexus-live",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:49:19.327Z",
+    "shot": "/shots/dashboard-plexus-live.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 224
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 115
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 46
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 20
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 12
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiTab-root",
+        "count": 5
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 3
+      },
+      {
+        "name": "MuiLinearProgress-root",
+        "count": 3
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 2
+      },
+      {
+        "name": "MuiCardContent-root",
+        "count": 2
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 2
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-caption",
+        "count": 46
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 43
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 21
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 20
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 20
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 20
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 19
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 18
+      },
+      {
+        "name": "MuiChip-outlinedSecondary",
+        "count": 18
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiTab-labelIcon",
+        "count": 5
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-plexus-live. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-plexus-u",
+    "folder": "dashboard-plexus-u",
+    "title": "Plexus University | Dashboard | Plexus Pulse",
+    "path": "/dashboard/plexus-u",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:49:24.022Z",
+    "shot": "/shots/dashboard-plexus-u.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 260
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 193
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 122
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 77
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 18
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 17
+      },
+      {
+        "name": "MuiGrid-root",
+        "count": 15
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 15
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 13
+      },
+      {
+        "name": "MuiCircularProgress-root",
+        "count": 12
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 11
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 8
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 119
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 77
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 70
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 28
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 23
+      },
+      {
+        "name": "MuiTypography-noWrap",
+        "count": 20
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 18
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 17
+      },
+      {
+        "name": "MuiPaper-elevation1",
+        "count": 17
+      },
+      {
+        "name": "MuiGrid-direction-xs-row",
+        "count": 15
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 15
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 15
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-plexus-u. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-plexus-u__plex-ray",
+    "folder": "dashboard-plexus-u__plex-ray",
+    "title": "Plexus University | Dashboard | Plexus Pulse",
+    "path": "/dashboard/plexus-u",
+    "colorScheme": "light",
+    "opened": "pleX-Ray Quick View - Logan Morgan",
+    "timestamp": "2026-10-06T18:08:13.911Z",
+    "shot": "/shots/dashboard-plexus-u__plex-ray.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 293
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 224
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 138
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 77
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 22
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 19
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 18
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 17
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 16
+      },
+      {
+        "name": "MuiGrid-root",
+        "count": 15
+      },
+      {
+        "name": "MuiCircularProgress-root",
+        "count": 12
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 11
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 119
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 77
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 70
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 49
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 30
+      },
+      {
+        "name": "MuiTypography-noWrap",
+        "count": 20
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 19
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 18
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 18
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 18
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 18
+      },
+      {
+        "name": "MuiPaper-elevation1",
+        "count": 17
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-plexus-u__plex-ray. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-plexus-u-cmo1qeee300139uanov5v2kfz",
+    "folder": "dashboard-plexus-u-cmo1qeee300139uanov5v2kfz",
+    "title": "Category | Plexus University | Plexus Pulse",
+    "path": "/dashboard/plexus-u/cmo1qeee300139uanov5v2kfz",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:50:26.139Z",
+    "shot": "/shots/dashboard-plexus-u-cmo1qeee300139uanov5v2kfz.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 204
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 73
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 53
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 8
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 6
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 5
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 4
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 4
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 1
+      },
+      {
+        "name": "MuiLinearProgress-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 43
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 16
+      },
+      {
+        "name": "MuiTypography-noWrap",
+        "count": 9
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 7
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 6
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 5
+      },
+      {
+        "name": "MuiPaper-elevation1",
+        "count": 5
+      },
+      {
+        "name": "MuiTypography-subtitle2",
+        "count": 5
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 4
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 4
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-plexus-u-cmo1qeee300139uanov5v2kfz. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-plexus-u-cmo1qeee500169uan84psdvv7",
+    "folder": "dashboard-plexus-u-cmo1qeee500169uan84psdvv7",
+    "title": "Category | Plexus University | Plexus Pulse",
+    "path": "/dashboard/plexus-u/cmo1qeee500169uan84psdvv7",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:50:33.813Z",
+    "shot": "/shots/dashboard-plexus-u-cmo1qeee500169uan84psdvv7.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 207
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 75
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 57
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 10
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 8
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 7
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 6
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 6
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 5
+      },
+      {
+        "name": "MuiAvatar-root",
+        "count": 1
+      },
+      {
+        "name": "MuiLinearProgress-root",
+        "count": 1
+      },
+      {
+        "name": "MuiDrawer-root",
+        "count": 1
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 43
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 18
+      },
+      {
+        "name": "MuiTypography-noWrap",
+        "count": 11
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 8
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 8
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 7
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 6
+      },
+      {
+        "name": "MuiIconButton-sizeMedium",
+        "count": 6
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 6
+      },
+      {
+        "name": "MuiPaper-elevation1",
+        "count": 6
+      },
+      {
+        "name": "MuiTypography-subtitle2",
+        "count": 6
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-plexus-u-cmo1qeee500169uan84psdvv7. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-points-rank",
+    "folder": "dashboard-points-rank",
+    "title": "Points & Rank | Dashboard | Plexus Pulse",
+    "path": "/dashboard/points-rank",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:48:46.592Z",
+    "shot": "/shots/dashboard-points-rank.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 251
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 132
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 77
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 65
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 21
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 17
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 16
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 14
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 11
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 11
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 9
+      },
+      {
+        "name": "MuiInputBase-root",
+        "count": 5
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 87
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 77
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 70
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 26
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 16
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 16
+      },
+      {
+        "name": "MuiPaper-elevation1",
+        "count": 15
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 14
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 10
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 10
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 10
+      },
+      {
+        "name": "MuiButton-textSizeSmall",
+        "count": 10
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-points-rank. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-points-rank__open-plexi-glass",
+    "folder": "dashboard-points-rank__open-plexi-glass",
+    "title": "Points & Rank | Dashboard | Plexus Pulse",
+    "path": "/dashboard/points-rank",
+    "colorScheme": "light",
+    "opened": "PleXi-Glass coaching view - Abigail Johnson",
+    "timestamp": "2026-10-06T18:14:09.007Z",
+    "shot": "/shots/dashboard-points-rank__open-plexi-glass.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 294
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 163
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 96
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 77
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 29
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 27
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 18
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 18
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 16
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 16
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 11
+      },
+      {
+        "name": "MuiInputBase-root",
+        "count": 5
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTypography-body1",
+        "count": 87
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 77
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 70
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 39
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 27
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 27
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 27
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 26
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 23
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 17
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 17
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 16
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-points-rank__open-plexi-glass. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-points-rank__september-2026",
+    "folder": "dashboard-points-rank__september-2026",
+    "title": "Points & Rank | Dashboard | Plexus Pulse",
+    "path": "/dashboard/points-rank",
+    "colorScheme": "light",
+    "opened": "Period select menu",
+    "timestamp": "2026-10-06T18:14:29.927Z",
+    "shot": "/shots/dashboard-points-rank__september-2026.png",
+    "overlayKind": "menu",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 251
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 132
+      },
+      {
+        "name": "MuiMenuItem-root",
+        "count": 120
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 81
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 77
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 65
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 18
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 16
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 14
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 11
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 11
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 9
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiMenuItem-gutters",
+        "count": 120
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 87
+      },
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 77
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 70
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 26
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 17
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 17
+      },
+      {
+        "name": "MuiPaper-elevation1",
+        "count": 15
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 14
+      },
+      {
+        "name": "MuiButton-text",
+        "count": 10
+      },
+      {
+        "name": "MuiButton-textPrimary",
+        "count": 10
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 10
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-points-rank__september-2026. Not original source.\n<Menu open>\n  <MenuItem>View profile</MenuItem>\n  <MenuItem>Add note</MenuItem>\n  <MenuItem>Open pleX-Ray</MenuItem>\n</Menu>"
+  },
+  {
+    "slug": "dashboard-pulse-check",
+    "folder": "dashboard-pulse-check",
+    "title": "Pulse Check | Dashboard | Plexus Pulse",
+    "path": "/dashboard/pulse-check",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:48:32.582Z",
+    "shot": "/shots/dashboard-pulse-check.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 331
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 253
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 191
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 102
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 75
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 74
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 68
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 33
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 29
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 28
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 20
+      },
+      {
+        "name": "MuiSvgIcon-root",
+        "count": 20
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 253
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 230
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 122
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 74
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 74
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 68
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 68
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 68
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 65
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 60
+      },
+      {
+        "name": "MuiButton-outlinedPrimary",
+        "count": 60
+      },
+      {
+        "name": "MuiButton-outlinedSizeSmall",
+        "count": 60
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-pulse-check. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-pulse-check__actions",
+    "folder": "dashboard-pulse-check__actions",
+    "title": "Pulse Check | Dashboard | Plexus Pulse",
+    "path": "/dashboard/pulse-check",
+    "colorScheme": "light",
+    "opened": "Row Actions menu (Henry White)",
+    "timestamp": "2026-10-06T18:11:29.456Z",
+    "shot": "/shots/dashboard-pulse-check__actions.png",
+    "overlayKind": "menu",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 340
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 253
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 191
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 103
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 75
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 74
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 68
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 33
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 30
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 28
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 20
+      },
+      {
+        "name": "MuiSvgIcon-root",
+        "count": 20
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 253
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 230
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 122
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 74
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 74
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 68
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 68
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 68
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 65
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 60
+      },
+      {
+        "name": "MuiButton-outlinedPrimary",
+        "count": 60
+      },
+      {
+        "name": "MuiButton-outlinedSizeSmall",
+        "count": 60
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-pulse-check__actions. Not original source.\n<Menu open>\n  <MenuItem>View profile</MenuItem>\n  <MenuItem>Add note</MenuItem>\n  <MenuItem>Open pleX-Ray</MenuItem>\n</Menu>"
+  },
+  {
+    "slug": "dashboard-pulse-check__explain-scenarios",
+    "folder": "dashboard-pulse-check__explain-scenarios",
+    "title": "Pulse Check | Dashboard | Plexus Pulse",
+    "path": "/dashboard/pulse-check",
+    "colorScheme": "light",
+    "opened": "Forecast scenarios popover (Explain scenarios)",
+    "timestamp": "2026-10-06T18:11:05.238Z",
+    "shot": "/shots/dashboard-pulse-check__explain-scenarios.png",
+    "overlayKind": "popover",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 333
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 253
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 196
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 103
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 75
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 74
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 68
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 33
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 30
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 28
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 20
+      },
+      {
+        "name": "MuiSvgIcon-root",
+        "count": 20
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 253
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 230
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 122
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 74
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 74
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 68
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 68
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 68
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 65
+      },
+      {
+        "name": "MuiButton-outlined",
+        "count": 60
+      },
+      {
+        "name": "MuiButton-outlinedPrimary",
+        "count": 60
+      },
+      {
+        "name": "MuiButton-outlinedSizeSmall",
+        "count": 60
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-pulse-check__explain-scenarios. Not original source.\n<Paper elevation={3} sx={{ p: 2, maxWidth: 320 }}>\n  <Typography variant=\"subtitle2\">Guide</Typography>\n  <Typography variant=\"body2\" color=\"text.secondary\" sx={{ mt: 0.5 }}>\n    Forecast scenarios popover (Explain scenarios)\n  </Typography>\n</Paper>"
+  },
+  {
+    "slug": "dashboard-recognition",
+    "folder": "dashboard-recognition",
+    "title": "Recognition | Dashboard | Plexus Pulse",
+    "path": "/dashboard/recognition",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:49:09.965Z",
+    "shot": "/shots/dashboard-recognition.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiTableCell-root",
+        "count": 291
+      },
+      {
+        "name": "MuiBox-root",
+        "count": 286
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 211
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 61
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 59
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 22
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 14
+      },
+      {
+        "name": "MuiSvgIcon-root",
+        "count": 14
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 11
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 10
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 8
+      },
+      {
+        "name": "MuiTableContainer-root",
+        "count": 3
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 291
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 276
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 166
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 18
+      },
+      {
+        "name": "MuiTableCell-head",
+        "count": 15
+      },
+      {
+        "name": "MuiTableSortLabel-directionAsc",
+        "count": 14
+      },
+      {
+        "name": "MuiSvgIcon-fontSizeMedium",
+        "count": 14
+      },
+      {
+        "name": "MuiTableSortLabel-icon",
+        "count": 14
+      },
+      {
+        "name": "MuiTableSortLabel-iconDirectionAsc",
+        "count": 14
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 11
+      },
+      {
+        "name": "MuiPaper-rounded",
+        "count": 10
+      },
+      {
+        "name": "MuiPaper-elevation1",
+        "count": 10
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-recognition. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-recognition__plex-ray",
+    "folder": "dashboard-recognition__plex-ray",
+    "title": "Recognition | Dashboard | Plexus Pulse",
+    "path": "/dashboard/recognition",
+    "colorScheme": "light",
+    "opened": "pleX-Ray Quick View - Scarlett Lopez",
+    "timestamp": "2026-10-06T18:12:05.415Z",
+    "shot": "/shots/dashboard-recognition__plex-ray.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 326
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 291
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 245
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 80
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 59
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 31
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 16
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 14
+      },
+      {
+        "name": "MuiSvgIcon-root",
+        "count": 14
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 12
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 10
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 7
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 291
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 276
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 166
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 43
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 15
+      },
+      {
+        "name": "MuiTableCell-head",
+        "count": 15
+      },
+      {
+        "name": "MuiIconButton-colorSecondary",
+        "count": 14
+      },
+      {
+        "name": "MuiTableSortLabel-directionAsc",
+        "count": 14
+      },
+      {
+        "name": "MuiSvgIcon-fontSizeMedium",
+        "count": 14
+      },
+      {
+        "name": "MuiTableSortLabel-icon",
+        "count": 14
+      },
+      {
+        "name": "MuiTableSortLabel-iconDirectionAsc",
+        "count": 14
+      },
+      {
+        "name": "MuiPaper-elevation",
+        "count": 12
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-recognition__plex-ray. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  },
+  {
+    "slug": "dashboard-sharing-plexus",
+    "folder": "dashboard-sharing-plexus",
+    "title": "Sharing Plexus | Dashboard | Plexus Pulse",
+    "path": "/dashboard/sharing-plexus",
+    "colorScheme": "light",
+    "opened": "shell",
+    "timestamp": "2026-10-06T17:49:14.648Z",
+    "shot": "/shots/dashboard-sharing-plexus.png",
+    "overlayKind": null,
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 353
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 204
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 154
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 124
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 47
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 44
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 30
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 22
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 20
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 18
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 17
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 12
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 154
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 140
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 117
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 44
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 44
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 44
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 37
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 30
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 30
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 30
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 29
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 28
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-sharing-plexus. Not original source.\n// Shell capture — compose it from the matching pattern specimen.\n<Box sx={{ bgcolor: \"background.default\", p: 3 }}>\n  <Typography variant=\"h6\">Page shell</Typography>\n</Box>"
+  },
+  {
+    "slug": "dashboard-sharing-plexus__show-qr-code",
+    "folder": "dashboard-sharing-plexus__show-qr-code",
+    "title": "Sharing Plexus | Dashboard | Plexus Pulse",
+    "path": "/dashboard/sharing-plexus",
+    "colorScheme": "light",
+    "opened": "QR code dialog - monthly special",
+    "timestamp": "2026-10-06T18:16:01.471Z",
+    "shot": "/shots/dashboard-sharing-plexus__show-qr-code.png",
+    "overlayKind": "dialog",
+    "classes": [
+      {
+        "name": "MuiBox-root",
+        "count": 354
+      },
+      {
+        "name": "MuiTypography-root",
+        "count": 206
+      },
+      {
+        "name": "MuiTableCell-root",
+        "count": 154
+      },
+      {
+        "name": "MuiStack-root",
+        "count": 124
+      },
+      {
+        "name": "MuiButtonBase-root",
+        "count": 48
+      },
+      {
+        "name": "MuiChip-root",
+        "count": 44
+      },
+      {
+        "name": "MuiButton-root",
+        "count": 30
+      },
+      {
+        "name": "MuiTableRow-root",
+        "count": 22
+      },
+      {
+        "name": "MuiIconButton-root",
+        "count": 21
+      },
+      {
+        "name": "MuiPaper-root",
+        "count": 19
+      },
+      {
+        "name": "MuiCard-root",
+        "count": 17
+      },
+      {
+        "name": "MuiTableSortLabel-root",
+        "count": 12
+      }
+    ],
+    "variants": [
+      {
+        "name": "MuiTableCell-sizeSmall",
+        "count": 154
+      },
+      {
+        "name": "MuiTableCell-body",
+        "count": 140
+      },
+      {
+        "name": "MuiTypography-body1",
+        "count": 117
+      },
+      {
+        "name": "MuiChip-sizeSmall",
+        "count": 44
+      },
+      {
+        "name": "MuiChip-label",
+        "count": 44
+      },
+      {
+        "name": "MuiChip-labelSmall",
+        "count": 44
+      },
+      {
+        "name": "MuiTypography-body2",
+        "count": 38
+      },
+      {
+        "name": "MuiButton-sizeSmall",
+        "count": 30
+      },
+      {
+        "name": "MuiButton-colorPrimary",
+        "count": 30
+      },
+      {
+        "name": "MuiChip-outlined",
+        "count": 30
+      },
+      {
+        "name": "MuiTypography-caption",
+        "count": 29
+      },
+      {
+        "name": "MuiChip-colorSecondary",
+        "count": 28
+      }
+    ],
+    "snippet": "// Reconstructed from capture dashboard-sharing-plexus__show-qr-code. Not original source.\n<Dialog open fullWidth maxWidth=\"sm\">\n  <DialogTitle>Quick view</DialogTitle>\n  <DialogContent>\n    <Stack direction=\"row\" spacing={1} sx={{ mb: 2 }}>\n      <Avatar>SA</Avatar>\n      <Box>\n        <Typography variant=\"subtitle1\">Sample Ambassador</Typography>\n        <Typography variant=\"caption\" color=\"text.secondary\">Diamond · PV 4,280</Typography>\n      </Box>\n    </Stack>\n    <Chip size=\"small\" color=\"success\" label=\"On track\" />\n  </DialogContent>\n  <DialogActions>\n    <Button size=\"small\">Close</Button>\n    <Button size=\"small\" variant=\"contained\">Open profile</Button>\n  </DialogActions>\n</Dialog>"
+  }
+]
